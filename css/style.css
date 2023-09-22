@@ -1,0 +1,335 @@
+@font-face {
+  font-family: iranyekan;
+  src: url(../font/IRANYekan/WebFonts/fonts/woff/IRANYekanWebRegular.woff);
+  src: url(../font/IRANYekan/WebFonts/fonts/woff2/IRANYekanWebRegular.woff2);
+  src: url(../font/IRANYekan/WebFonts/fonts/eot/IRANYekanWebRegular.eot);
+  src: url(../font/IRANYekan/WebFonts/fonts/svg/IRANYekanWebRegular.svg);
+  src: url(../font/IRANYekan/WebFonts/fonts/ttf/IRANYekanWebRegular.ttf);
+  /* format("truetype"); */
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: iranyekan;
+  src: url(../font/IRANYekan/WebFonts/fonts/woff/IRANYekanWebBold.woff);
+  src: url(../font/IRANYekan/WebFonts/fonts/woff2/IRANYekanWebBold.woff2);
+  src: url(../font/IRANYekan/WebFonts/fonts/eot/IRANYekanWebBold.eot);
+  src: url(../font/IRANYekan/WebFonts/fonts/svg/iranyekanwebbold.svg);
+  src: url(../font/IRANYekan/WebFonts/fonts/ttf/IRANYekanWebBold.ttf);
+  /* format("truetype"); */
+  font-style: normal;
+  font-weight:bold;
+}
+  
+  a {
+    cursor: pointer !important;
+  }
+
+  
+
+  * {
+    padding: 0;
+    margin: 0;
+    
+    font-family: iranyekan !important;
+  }
+  *,
+  *:before,
+  *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  input,
+  span,
+  textarea {
+    font-family: iranyekan !important;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    text-align: right;
+    background: #f4f6fd;
+    box-sizing: border-box;
+  }
+  
+  body a,
+  a:hover,
+  body a:active,
+  body a:focus,
+  body a:visited {
+    color: #333;
+    text-decoration: none;
+    /* font-size: 14px !important; */
+  }
+  /* ----------reset code---------- */
+
+
+
+
+  .my_body{
+    background-color: #F5F5F5;
+  }
+
+  fieldset, legend {
+    all: revert;
+ }
+
+
+
+.myfieldset
+{
+ background-color:#FEFCFC;
+ border-color: #ffffff78;
+}
+
+.detail{
+    border: 1px solid gainsboro;
+    padding: 0.5rem;
+
+}
+
+.detail-dis{
+  border: 1px solid gainsboro;
+  padding: 0.5rem;
+  position: relative;
+}
+
+
+.my_product-image{
+    max-width: 100%;
+    height: auto;
+}
+
+
+.badge-secondary{
+  background-color: #6C757D;
+}
+
+
+
+.badge-warning{
+  background-color: #FFC107;
+  color: #333;
+}
+
+.badge-success{
+  background-color: #28A745;
+
+}
+
+.badge{
+  font-size:14px !important;
+}
+
+
+.DiscountCurve{
+  display: inline-block;
+    width: 50px;
+    height: 40px;
+    background: #ef394e;
+    border-radius: 0 0 100% 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 5px;
+    padding-left: 5px;
+    font-weight: bold;
+  }
+
+
+
+  .currency{
+    font-size: 10px !important;
+  }
+
+
+  hr {
+
+    color: #b1b8be;
+
+    border: 0;
+    opacity: 0.25;
+  }
+
+
+  .typeofpayment{
+    border: 1px solid #e0e0e0 !important;
+
+  }
+
+  .image-payment{
+width: 80px;
+height: 30px;
+  }
+
+
+  .detail.p-3.rounded.sticky-top {
+    top: 1rem;
+}
+
+.nav-link.active{
+  color: #DC3545 !important;
+}
+.nav-link.active>svg{
+  fill: #DC3545 !important;
+  outline: 0;
+
+}
+
+
+.form-check-input[type=radio] {
+  margin-top: 2%;
+}
+
+span {
+  color: #6C757D;
+  font-size: 14px;;
+}
+
+.nav-link{
+  font-size:14px;
+}
+
+.departemen-item2{
+  margin-right: 6.2rem;
+}
+
+
+.date-time-child2 , .final-price-tem2{
+margin-right: 5rem;
+}
+
+
+.departemen-item1 >span{
+  padding-right: 2px;
+}
+
+.national-code-2 , .phone-number-2 , .base-price2{
+  margin-right: 0.5rem;
+}
+
+.locaton{
+  margin-right: -2px;;
+}
+
+.departemen-item1-text{
+  margin-right: 4px;;
+}
+
+
+@media (min-width: 1400px){
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 90%;
+}
+}
+
+
+/* .mycontent {
+  margin-top: -3rem;
+} */
+
+@media(max-width:768px){
+  /* .noflexinmobile{
+    display: block !important;
+  } */
+span{
+  font-size: 12px !important;
+}
+
+.nav-link{
+  font-size:11.5px;
+}
+
+.departemen{
+display: block !important;
+}
+.departemen-item2{
+  margin: 0 !important;
+}
+
+.final-price{
+  display: block !important;
+}
+
+.final-price-tem2{
+  margin: 0 !important;
+}
+
+.base-price{
+  display: block !important;
+}
+
+.base-price2{
+  margin: 0 !important;
+  margin-top: -3px !important;
+}
+
+.date-time{
+  display: block !important;
+}
+
+
+.date-time-child2{
+  margin:0;
+  }
+
+
+
+  .national-code{
+    display: block !important;
+  }
+
+  .national-code-2{
+    margin:0;
+  }
+
+  .phone-number{
+    display: block !important;
+
+  }
+
+  .phone-number-2{
+    margin:0;
+  
+  }
+
+  .date-time-child2-text{
+    margin-right: 4px;
+  }
+
+  .date-time-child1-txt{
+    margin-right: 4px;
+  }
+
+  
+
+}
+
+
+
+@media(max-width:992px){
+  .detail{
+    border: 0;
+    padding: 0.5rem;
+
+}
+
+
+.detail-dis{
+  border: 0;
+  border-bottom: 1px solid gainsboro;
+  border-radius: 0 !important;
+}
+
+
+}
