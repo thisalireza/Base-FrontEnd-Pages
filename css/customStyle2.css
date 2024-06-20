@@ -1,0 +1,116 @@
+/******************** Advertisment ********************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+}
+
+.radius-4 {
+  border-radius: 16px !important;
+}
+
+@media (max-width: 425px) {
+  .small-card {
+    aspect-ratio: 2 /1;
+  }
+}
+/******************** Advertisment ********************/
+
+/******************** Carousel ********************/
+#bordered {
+  border-radius: 2rem;
+}
+
+.swiper {
+  padding-top: 10rem;
+  height: calc(100vh - 12rem);
+}
+
+.swiper-slide {
+  height: calc(100% / 2) !important;
+}
+
+.swiper-button {
+  background: rgba(190, 190, 190, 0.5);
+  width: 3.5rem !important;
+  height: 3.5rem !important;
+  border-radius: 100%;
+}
+
+.swiper-button::after {
+  color: #000000;
+  font-size: 1.5rem !important;
+  font-weight: 600;
+}
+
+.swiper-button-disabled {
+  display: none !important;
+}
+
+@media (min-width: 1200px) {
+  .product:nth-child(6n) {
+    border-left: none !important;
+  }
+
+  .product:nth-child(6n + 1):nth-last-child(-n + 6),
+  .product:nth-child(6n + 1):nth-last-child(-n + 6) ~ * {
+    border-bottom: none !important;
+  }
+}
+
+@media (max-width: 1200px) and (min-width: 992px) {
+  .product:nth-child(4n) {
+    border-left: none !important;
+  }
+
+  .product:nth-child(4n + 1):nth-last-child(-n + 4),
+  .product:nth-child(4n + 1):nth-last-child(-n + 4) ~ * {
+    border-bottom: none !important;
+  }
+
+  .swiper {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) and (min-width: 769px) {
+  .product:nth-child(2n) {
+    border-left: none !important;
+  }
+
+  .product:nth-child(odd):nth-last-child(-n + 2),
+  .product:nth-child(odd):nth-last-child(-n + 2) ~ * {
+    border-bottom: none !important;
+    border-top: none !important;
+  }
+
+  .swiper {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .swiper-slide:nth-child(1) .product,
+  .swiper-slide:nth-child(2) .product {
+    border-right: none !important;
+  }
+
+  .swiper-slide:nth-child(odd) .product {
+    border-bottom: 1px #dee2e6 solid;
+  }
+
+  .container-xxl {
+    height: 100vh;
+    max-width: 90% !important;
+  }
+}
+/******************** Carousel ********************/

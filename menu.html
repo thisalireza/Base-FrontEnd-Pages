@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/yekanFont.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <title>Digikala Menu</title>
+  </head>
+  <body>
+    <!-- <div class="drop-down closed">
+      <div class="d-flex align-items-center justify-content-between nav-button">
+        <span>Home</span>
+        <div class="dropdown-icon">
+          <svg
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+          >
+            <defs>
+              <symbol
+                xmlns="http://www.w3.org/2000/svg"
+                id="chevronDown"
+                viewBox="0 0 18 18"
+              >
+                <path
+                  d="M5.78 6.97L4.72 8.03l3.75 3.75a.75.75 0 001.06 0l3.75-3.75-1.06-1.06L9 10.19 5.78 6.97z"
+                />
+              </symbol>
+            </defs>
+            <use xlink:href="#chevronDown" fill="#424750" />
+          </svg>
+        </div>
+      </div>
+      <div>
+        <div><a href="#">About</a></div>
+        <div><a href="#">Library</a></div>
+        <div><a href="#">Contact</a></div>
+      </div>
+    </div> -->
+    <div class="d-flex flex-column vh-100">
+      <section class="d-flex" id="content">
+        <aside class="overflow-auto text-center"></aside>
+        <article class="overflow-auto px-4 py-3">
+          <a href="#"
+            ><div class="d-flex align-items-center mb-4">
+              <h4 id="all-products" class="text-primary fs-5 pt-2">عنوان</h4>
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+              >
+                <defs>
+                  <symbol
+                    xmlns="http://www.w3.org/2000/svg"
+                    id="chevronLeft"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                    />
+                  </symbol>
+                </defs>
+                <use xlink:href="#chevronLeft" fill="#0d6efd" />
+              </svg></div
+          ></a>
+          <div class="content"></div>
+        </article>
+      </section>
+      <section id="navbar">
+        <div class="d-flex justify-content-around align-items-center gap-2">
+          <a href="#" class="w-100"
+            ><div
+              class="d-flex flex-column justify-content-center align-items-center p-2 fs-5 nav-item"
+            >
+              <div class="pe-none nav-icon"></div>
+              <span class="pe-none">خانه</span>
+            </div></a
+          >
+          <a href="#" class="w-100"
+            ><div
+              class="d-flex flex-column justify-content-center align-items-center p-2 fs-5 nav-item"
+            >
+              <div class="pe-none nav-icon"></div>
+              <span class="pe-none">دسته‌بندی</span>
+            </div></a
+          >
+          <a href="#" class="w-100"
+            ><div
+              class="d-flex flex-column justify-content-center align-items-center p-2 fs-5 nav-item"
+            >
+              <div class="position-relative pe-none">
+                <div class="nav-icon d-flex justify-content-center"></div>
+                <span>سبد خرید</span>
+                <span
+                  class="notification position-absolute bg-danger text-white d-flex align-items-center justify-content-center"
+                  >10</span
+                >
+              </div>
+            </div></a
+          >
+          <a href="#" class="w-100"
+            ><div
+              class="position-relative d-flex flex-column justify-content-center align-items-center p-2 fs-5 nav-item"
+            >
+              <div class="position-relative pe-none">
+                <div class="nav-icon d-flex justify-content-center"></div>
+                <span>دیجی‌کالای من</span>
+                <span
+                  class="notification notification-empty position-absolute bg-danger text-white d-flex align-items-center justify-content-center"
+                ></span>
+              </div></div
+          ></a>
+        </div>
+      </section>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/categories.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "B-Yekan";
+  src: url("../font/BYekan/pixelboy-BYekan.eot"); /* IE9 Compat Modes */
+  src: url("../font/BYekan/pixelboy-BYekan.eot?#iefix")
+      format("embedded-opentype"),
+    /* Super Modern Browsers */ url("../font/BYekan/pixelboy-BYekan.woff")
+      format("woff"),
+    /* Pretty Modern Browsers */ url("../font/BYekan/pixelboy-BYekan.ttf")
+      format("truetype"),
+    /* Safari, Android, iOS */
+      url("../font/BYekan/pixelboy-BYekan.svg#svgFontName") format("svg"); /* Legacy iOS */
+}

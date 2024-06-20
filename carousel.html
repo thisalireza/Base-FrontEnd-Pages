@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="font/IranSansX(Pro)/Webfonts/style.css" />
+    <link rel="stylesheet" href="css/customStyle2.css" />
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <title>Carousel</title>
+  </head>
+  <body>
+    <div class="container-xxl d-flex align-items-center justify-content-center">
+      <div class="border rounded-4 my-3 w-100 p-3 pb-0" id="bordered">
+        <div
+          class="d-flex py-4 justify-content-center align-items-center gap-1 mb-3"
+        >
+          <svg
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            xmlns="http://www.w3.org/2000/svg"
+            style="width: 24px; height: 24px; fill: var(--color-icon-primary)"
+            width="24"
+            height="24"
+          >
+            <defs>
+              <symbol
+                id="discount"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M22 4a1 1 0 011 1v14a1 1 0 01-1 1H6a1 1 0 01-.707-.293l-4-4A1 1 0 011 15V9a1 1 0 01.293-.707l4-4A1 1 0 016 4h16zm-1 2H6.414L3 9.414v5.172L6.414 18H21V6zm-6 3.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm2.5 6.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM10 12a3 3 0 11-6 0 3 3 0 016 0zm-4 0a1 1 0 102 0 1 1 0 00-2 0zm12.848-3.47l-5 8-1.696-1.06 5-8 1.696 1.06z"
+                  clip-rule="evenodd"
+                ></path>
+              </symbol>
+            </defs>
+            <g fill="#EF4056">
+              <path
+                fill-rule="evenodd"
+                d="M22 4a1 1 0 011 1v14a1 1 0 01-1 1H6a1 1 0 01-.707-.293l-4-4A1 1 0 011 15V9a1 1 0 01.293-.707l4-4A1 1 0 016 4h16zm-1 2H6.414L3 9.414v5.172L6.414 18H21V6zm-6 3.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zm2.5 6.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zM10 12a3 3 0 11-6 0 3 3 0 016 0zm-4 0a1 1 0 102 0 1 1 0 00-2 0zm12.848-3.47l-5 8-1.696-1.06 5-8 1.696 1.06z"
+                clip-rule="evenodd"
+              ></path>
+            </g>
+          </svg>
+          <h3 class="fs-2 fw-bold text-center">منتخب محصولات تخفیف و حراج</h3>
+        </div>
+        <div class="products d-none d-md-flex">
+          <div
+            class="row row-cols-2 row-cols-lg-4 row-cols-xl-6 px-3"
+            id="container"
+          ></div>
+        </div>
+        <!-- Slider main container -->
+        <div
+          class="swiper d-flex d-xl-none align-items-center justify-content-center w-100"
+        >
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper justify-content-evenly">
+            <!-- Slides -->
+            <!-- <div class="swiper-slide">Slide 1</div> -->
+          </div>
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button swiper-button-prev"></div>
+          <div class="swiper-button swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/carousel.js"></script>
+  </body>
+</html>

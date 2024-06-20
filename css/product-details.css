@@ -1,0 +1,432 @@
+/* Reset */
+:root {
+  --color-gray-100: #f0f0f1;
+  --color-gray-200: #e0e0e2;
+  --color-gray-300: #c0c2c5;
+  --color-gray-400: #a1a3a8;
+  --color-gray-500: #81858b;
+  --color-gray-600: #62666d;
+  --color-gray-700: #3f4064;
+  --color-gray-900: #0c0c0c;
+
+  --background-1: #f0f0f080;
+
+  --color-button-primary: #ef4056;
+  --color-primary-700: #ef394e;
+  --color-secondary-500: #19bfd3;
+  --color-plus-500: #b12ba4;
+
+  --color-rating-300: #20a049;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #23254e !important;
+  font-size: 1.4rem !important;
+  line-height: 2.8rem !important;
+  -moz-font-feature-settings: "ss02";
+  -webkit-font-feature-settings: "ss02";
+  font-feature-settings: "ss02";
+}
+
+ul {
+  list-style: none;
+  padding-right: 0 !important;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none !important;
+  color: inherit !important;
+  cursor: pointer;
+}
+
+p {
+  margin-bottom: 0 !important;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+/********** Reset **********/
+
+/********** Reusable **********/
+.icon-8 {
+  scale: 0.8;
+}
+
+.directory {
+  color: var(--color-gray-500);
+}
+
+.color-secondary {
+  color: var(--color-secondary-500);
+}
+
+.category-divider {
+  color: var(--color-gray-300);
+}
+
+.extra {
+  color: var(--color-gray-400);
+}
+
+.color-gray {
+  color: var(--color-gray-300);
+}
+
+.color-gray-500 {
+  color: var(--color-gray-500);
+}
+
+.color-gray-600 {
+  color: var(--color-gray-600);
+}
+
+.color-gray-700 {
+  color: var(--color-gray-700);
+}
+
+[data-color="active"] {
+  border: 2px solid #ffffff;
+  outline: 3px solid var(--color-secondary-500);
+}
+
+[data-color-responsive="active"] {
+  outline: 2px solid var(--color-secondary-500) !important;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+/********** Reusable **********/
+
+.main-container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1.2fr 1fr;
+  grid-template-rows: 200px auto auto auto;
+}
+
+.ratings {
+  font-size: 1.25rem !important;
+}
+
+/********** Modal Reset **********/
+.modal-header {
+  border-bottom: none !important;
+}
+
+.modal-footer {
+  justify-content: flex-start !important;
+}
+/********** Modal Reset **********/
+
+/********** Icons Modal **********/
+.iconsMenu-dialog {
+  width: 100vw !important;
+  max-width: 100vw !important;
+  margin: 0 !important;
+  align-items: end !important;
+  min-height: 100% !important;
+}
+
+.imageGallery-dialog {
+  width: 80vw !important;
+  max-width: 100vw !important;
+  margin: 0 auto !important;
+}
+
+.imageGallery-content {
+  border: none !important;
+  border-radius: 10px !important;
+}
+
+.imageGallery-header,
+.imageGallery-body,
+.imageGallery-footer {
+  padding: 10px 20px !important;
+}
+
+.iconsMenu-content {
+  border: none !important;
+  border-radius: 0 !important;
+  border-top-right-radius: 20px !important;
+  border-top-left-radius: 20px !important;
+}
+/********** Icons Modal **********/
+
+.connecter-line {
+  position: absolute;
+  width: 1px;
+  height: calc(50% - 5px);
+  left: 50%;
+  top: 0;
+  transform: translateX(-50%);
+  background: var(--color-gray-200);
+}
+
+/********** Related Videos **********/
+#related-videos {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.play-wrapper {
+  width: 40px;
+  height: 40px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.play-wrapper div {
+  padding-top: 8px;
+}
+
+.play-wrapper svg {
+  scale: 1.3;
+}
+/********** Related Videos **********/
+
+/********** Image Gallery Swiper **********/
+.image-gallery-pagination {
+  left: 70px !important;
+}
+/********** Image Gallery Swiper **********/
+
+/********** Swiper Reset **********/
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  height: auto !important;
+}
+
+.swiper-content {
+  height: 100% !important;
+}
+
+.swiper-button {
+  background: hsla(0, 0%, 100%, 0.5);
+  width: 4rem !important;
+  height: 4rem !important;
+  border-radius: 100%;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.swiper-button svg {
+  fill: #424750;
+  opacity: 0.7;
+  scale: 120%;
+  transition: all 0.2s ease;
+}
+
+.swiper-button svg:hover {
+  opacity: 1;
+}
+
+.swiper-button::after {
+  content: none !important;
+}
+
+.swiper-button-disabled {
+  display: none !important;
+}
+/********** Swiper Reset **********/
+
+/********** Details Navbar **********/
+.active-section li,
+[aria-selected="true"] {
+  color: #dc3545;
+}
+
+.active-section div,
+[aria-selected="true"] div {
+  bottom: 0;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  height: 4px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: calc(100% - 16px);
+}
+
+.title-underline {
+  background: #dc3545;
+  width: 7rem;
+  height: 0.2rem;
+}
+/********** Details Navbar **********/
+
+/********** Main Gallery **********/
+.expanded-gallery {
+  width: 550px;
+}
+
+.expanded-gallery-images {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.customers-expanded-gallery {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+/********** Main Gallery **********/
+
+.expertReview {
+  height: 100dvh !important;
+  overflow: hidden;
+}
+
+/********** Show More Details **********/
+.expanded {
+  height: max-content !important;
+  overflow: auto;
+}
+
+.expert-showMore {
+  background-color: #fff;
+  bottom: -10px;
+  right: 0;
+  padding: 2.5rem 3rem 5rem;
+  width: 100%;
+}
+
+.expert-showMore::before {
+  content: "";
+  position: absolute;
+  top: -15px;
+  right: 0;
+  height: 40px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 10);
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+/********** Show More Details **********/
+
+/********** For Responsive **********/
+@media (max-width: 992px) {
+  .section-title {
+    display: none;
+  }
+
+  #related-videos-container,
+  #products-swiper {
+    border-radius: 0 !important;
+    border: none !important;
+    border-bottom: 4px solid #f0f0f1 !important;
+  }
+
+  .swiper-pagination-bullet,
+  .swiper-pagination-bullet-active-main {
+    width: 6px !important;
+    height: 6px !important;
+    background: var(--color-gray-400) !important;
+    opacity: 1 !important;
+  }
+
+  .swiper-pagination-bullet-active {
+    scale: 1.4 !important;
+  }
+
+  .expert-showMore {
+    background-color: #fff;
+    bottom: -10px;
+    right: 0;
+    padding: 3rem 1.5rem;
+    width: 100%;
+  }
+
+  .main-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 100vw;
+    grid-template-rows: auto auto auto 1fr auto;
+  }
+
+  [data-container="main"] {
+    flex-direction: column !important;
+  }
+
+  [data-container="user-suggestions"] {
+    border-bottom: 1px solid var(--color-gray-100);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  [data-container="insurance"],
+  [data-container="features"] {
+    border-bottom: 7px solid #f0f0f1 !important;
+  }
+
+  [data-container="offers"] {
+    grid-row-start: 5;
+    padding: 20px !important;
+    background: #f0f0f1 !important;
+  }
+
+  [data-container="side"] {
+    grid-row-start: 4;
+    grid-column-start: 1;
+  }
+
+  [data-container="side"] > div {
+    background: #ffffff !important;
+    border-radius: 0 !important;
+    border: none !important;
+    border-bottom: 7px solid #f0f0f1 !important;
+    padding-bottom: 20px;
+  }
+
+  [data-container="price"] {
+    display: none;
+  }
+
+  [data-container="price-control"] > div {
+    border: none !important;
+    padding: 0 20px !important;
+  }
+
+  [data-container="deliver"] {
+    flex-direction: column !important;
+    text-align: center;
+  }
+
+  [data-container="footer"] li p {
+    font-size: 11px !important;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 320px) {
+  .ratings {
+    font-size: 1rem !important;
+  }
+}
+/********** For Responsive **********/

@@ -1,0 +1,2782 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="font/IranSansX(Pro)/Webfonts/style.css" />
+    <link rel="stylesheet" href="css/product-details.css" />
+    <link rel="stylesheet" href="css/bootstrap.rtl.min.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <title>Product Details</title>
+  </head>
+  <body>
+    <div class="position-relative pb-lg-0" style="padding-bottom: 140px">
+      <div
+        class="d-flex flex-column"
+        data-container="hero"
+        style="border-bottom: 4px solid #f0f0f1 !important"
+      >
+        <!-- Icon Sidebar for Responsive -->
+        <div
+          class="d-flex justify-content-end me-4 mt-4"
+          data-container="icons-sidebar"
+          data-screen="responsive"
+        >
+          <ul class="d-flex gap-5">
+            <li>
+              <div>
+                <svg
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                >
+                  <defs>
+                    <symbol
+                      id="cartOff"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </symbol>
+                  </defs>
+                  <g fill="#424750">
+                    <path
+                      fill-rule="evenodd"
+                      d="M20 4h2V2h-3a1 1 0 00-1 1v1H3a1 1 0 00-.995 1.1l1 10A1 1 0 004 16h15a1 1 0 001-1V4zm-2 17a2 2 0 110-4 2 2 0 010 4zM5 21a2 2 0 110-4 2 2 0 010 4zm13-7V6H4.105l.8 8H18z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </li>
+            <li>
+              <div>
+                <svg
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                >
+                  <defs>
+                    <symbol
+                      id="favoriteOff"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M7.5 3a6 6 0 00-3.844 10.607l6.982 6.492a2 2 0 002.724 0l6.993-6.503C21.685 12.504 22.5 10.818 22.5 9A6 6 0 0012 5.03 5.995 5.995 0 007.5 3zm-2.502 9.124l-.044-.039a4 4 0 116.147-4.83 1 1 0 001.799 0A4 4 0 0120.5 9a3.99 3.99 0 01-1.461 3.091L12 18.634l-7.002-6.51z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </symbol>
+                  </defs>
+                  <g fill="#424750">
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.5 3a6 6 0 00-3.844 10.607l6.982 6.492a2 2 0 002.724 0l6.993-6.503C21.685 12.504 22.5 10.818 22.5 9A6 6 0 0012 5.03 5.995 5.995 0 007.5 3zm-2.502 9.124l-.044-.039a4 4 0 116.147-4.83 1 1 0 001.799 0A4 4 0 0120.5 9a3.99 3.99 0 01-1.461 3.091L12 18.634l-7.002-6.51z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </li>
+            <li>
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#iconsMenu"
+              >
+                <svg
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                >
+                  <defs>
+                    <symbol
+                      id="moreVert"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm-2 4c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2zm2 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </symbol>
+                  </defs>
+                  <g fill="#424750">
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 8c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zm-2 4c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2zm2 8c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </g>
+                </svg>
+              </button>
+            </li>
+          </ul>
+          <!-- Icons Menu Modal -->
+          <div
+            class="modal fade"
+            id="iconsMenu"
+            tabindex="-1"
+            aria-labelledby="iconsMenuLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered iconsMenu-dialog">
+              <div class="modal-content iconsMenu-content">
+                <div class="modal-body iconsMenu-body">
+                  <div
+                    class="border-bottom py-3 d-flex align-items-center gap-4"
+                  >
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="priceChart"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M4 18V4H2v15a1 1 0 001 1h19v-2H4zM22 8a2 2 0 10-3.933.517l-2.55 2.55a2.003 2.003 0 00-1.034 0l-1.55-1.55A2.003 2.003 0 0011 7a2 2 0 00-1.933 2.517l-1.55 1.55A2.003 2.003 0 005 13a2 2 0 103.933-.517l1.55-1.55a2.003 2.003 0 001.035 0l1.55 1.55A2.003 2.003 0 0015 15a2 2 0 001.933-2.517l2.55-2.55A2.002 2.002 0 0022 8z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#424750">
+                          <path
+                            fill-rule="evenodd"
+                            d="M4 18V4H2v15a1 1 0 001 1h19v-2H4zM22 8a2 2 0 10-3.933.517l-2.55 2.55a2.003 2.003 0 00-1.034 0l-1.55-1.55A2.003 2.003 0 0011 7a2 2 0 00-1.933 2.517l-1.55 1.55A2.003 2.003 0 005 13a2 2 0 103.933-.517l1.55-1.55a2.003 2.003 0 001.035 0l1.55 1.55A2.003 2.003 0 0015 15a2 2 0 001.933-2.517l2.55-2.55A2.002 2.002 0 0022 8z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <span>نمودار قیمت</span>
+                  </div>
+                  <div
+                    class="border-bottom py-3 d-flex align-items-center gap-4"
+                  >
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="compare"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M13 2h-2v2H4a2 2 0 00-2 2v12a2 2 0 002 2h7v2h2V2zm1 16v2h6a2 2 0 002-2V6a2 2 0 00-2-2h-6v2h6v12h-6z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#424750">
+                          <path
+                            fill-rule="evenodd"
+                            d="M13 2h-2v2H4a2 2 0 00-2 2v12a2 2 0 002 2h7v2h2V2zm1 16v2h6a2 2 0 002-2V6a2 2 0 00-2-2h-6v2h6v12h-6z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <span>مقایسه کالا</span>
+                  </div>
+                  <div
+                    class="border-bottom py-3 d-flex align-items-center gap-4"
+                  >
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="share"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M15.917 14.16l-6.94 3.47a3 3 0 11-.895-1.789l6.94-3.47a3.021 3.021 0 010-.742l-6.94-3.47a3 3 0 11.895-1.789l6.94 3.47a3 3 0 110 4.319z"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#424750">
+                          <path
+                            d="M15.917 14.16l-6.94 3.47a3 3 0 11-.895-1.789l6.94-3.47a3.021 3.021 0 010-.742l-6.94-3.47a3 3 0 11.895-1.789l6.94 3.47a3 3 0 110 4.319z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <span>به اشتراک گذاری کالا</span>
+                  </div>
+                  <div
+                    class="border-bottom py-3 d-flex align-items-center gap-4"
+                  >
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="list"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M15 6v2H5V6h10zm0 7v-2H5v2h10zm0 5v-2H5v2h10zm5-5v-2h-3v2h3zm0 3v2h-3v-2h3zm0-8V6h-3v2h3z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#424750">
+                          <path
+                            fill-rule="evenodd"
+                            d="M15 6v2H5V6h10zm0 7v-2H5v2h10zm0 5v-2H5v2h10zm5-5v-2h-3v2h3zm0 3v2h-3v-2h3zm0-8V6h-3v2h3z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <span>افزودن به لیست</span>
+                  </div>
+                  <div class="py-3 d-flex align-items-center gap-4">
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="notificationActiveOutline"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M3.667 13.886A2.001 2.001 0 005 12V9a7 7 0 0114 0v3c0 .854.54 1.606 1.333 1.886a1 1 0 01.667.943V19a1 1 0 01-1 1H4a1 1 0 01-1-1v-4.17a1 1 0 01.667-.944zM19 18v-2.535A4 4 0 0117 12V9A5 5 0 007 9v3a4 4 0 01-2 3.465V18h14zm-7 5c-1.385 0-2.563-.835-3-2h6c-.437 1.165-1.615 2-3 2zm6.02-19.262l1.504-1.318a9.964 9.964 0 012.477 6.589h-2a7.964 7.964 0 00-1.981-5.27zM4 9.008c0-1.966.711-3.82 1.981-5.27L4.477 2.42A9.964 9.964 0 002 9.009h2z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#424750">
+                          <path
+                            fill-rule="evenodd"
+                            d="M3.667 13.886A2.001 2.001 0 005 12V9a7 7 0 0114 0v3c0 .854.54 1.606 1.333 1.886a1 1 0 01.667.943V19a1 1 0 01-1 1H4a1 1 0 01-1-1v-4.17a1 1 0 01.667-.944zM19 18v-2.535A4 4 0 0117 12V9A5 5 0 007 9v3a4 4 0 01-2 3.465V18h14zm-7 5c-1.385 0-2.563-.835-3-2h6c-.437 1.165-1.615 2-3 2zm6.02-19.262l1.504-1.318a9.964 9.964 0 012.477 6.589h-2a7.964 7.964 0 00-1.981-5.27zM4 9.008c0-1.966.711-3.82 1.981-5.27L4.477 2.42A9.964 9.964 0 002 9.009h2z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <span>اطلاع‌رسانی شگفت انگیز</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Icon Sidebar for Responsive -->
+        <div class="d-flex justify-content-between align-items-center m-4">
+          <div class="directory d-flex fs-5 gap-3">
+            <p>دیجی‌کالا</p>
+            <div>/</div>
+            <p>موبایل</p>
+            <div>/</div>
+            <p>گوشی موبایل</p>
+          </div>
+          <div class="d-flex fs-5 align-items-center gap-5" data-screen="main">
+            <a href="#"
+              ><div class="extra d-flex align-items-center gap-1">
+                <p>ثبت آگهی در پیندو</p>
+                <div>
+                  <svg
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    class="icon-8"
+                  >
+                    <defs>
+                      <symbol
+                        id="ads"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M20.198 1.408l2.779 15.757-4.803.847-2.737-.302a4 4 0 01-7.972-.207l-.006-.205-.005-.442-4.694.827-1.737-9.848 4.782-.843 9.591-4.737 4.802-.847zM9.456 17.05l.003.238a2 2 0 003.99.203l-3.993-.441zm7.15-12.979l1.97-.346 2.084 11.818-1.97.347L16.606 4.07zm-1.898.753L7.236 8.516l1.129 6.402 8.284.913-1.94-11.007zM3.34 9.458l1.97-.348 1.042 5.91-1.97.346L3.34 9.458z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </symbol>
+                    </defs>
+                    <g fill="#A1A3A8">
+                      <path
+                        fill-rule="evenodd"
+                        d="M20.198 1.408l2.779 15.757-4.803.847-2.737-.302a4 4 0 01-7.972-.207l-.006-.205-.005-.442-4.694.827-1.737-9.848 4.782-.843 9.591-4.737 4.802-.847zM9.456 17.05l.003.238a2 2 0 003.99.203l-3.993-.441zm7.15-12.979l1.97-.346 2.084 11.818-1.97.347L16.606 4.07zm-1.898.753L7.236 8.516l1.129 6.402 8.284.913-1.94-11.007zM3.34 9.458l1.97-.348 1.042 5.91-1.97.346L3.34 9.458z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </g>
+                  </svg>
+                </div></div
+            ></a>
+            <a href="#"
+              ><div class="extra d-flex align-items-center gap-1">
+                <p>فروش در دیجی‌کالا</p>
+                <div>
+                  <svg
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    class="icon-8"
+                  >
+                    <defs>
+                      <symbol
+                        id="seller"
+                        xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          d="M19.5 3h-15a1 1 0 00-.959.715l-1.5 5.053A1 1 0 002 9.053V12a1 1 0 001 1h.006l.038 7.006A1 1 0 004.048 21l9.956-.035a1 1 0 00.996-1V13h4v8h2v-8a1 1 0 001-1V9.053a1 1 0 00-.041-.285l-1.5-5.053A1 1 0 0019.5 3zm.5 8V9.198L18.754 5H5.246L4 9.198V11h16zm-7 2H5.006l.033 5.997L13 18.968V13z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </symbol>
+                    </defs>
+                    <g fill="#A1A3A8">
+                      <path
+                        fill-rule="evenodd"
+                        d="M19.5 3h-15a1 1 0 00-.959.715l-1.5 5.053A1 1 0 002 9.053V12a1 1 0 001 1h.006l.038 7.006A1 1 0 004.048 21l9.956-.035a1 1 0 00.996-1V13h4v8h2v-8a1 1 0 001-1V9.053a1 1 0 00-.041-.285l-1.5-5.053A1 1 0 0019.5 3zm.5 8V9.198L18.754 5H5.246L4 9.198V11h16zm-7 2H5.006l.033 5.997L13 18.968V13z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </g>
+                  </svg>
+                </div></div
+            ></a>
+          </div>
+        </div>
+        <div class="d-flex px-0 px-lg-4" style="flex: 1" data-container="main">
+          <div data-screen="responsive">
+            <!-- Image Gallery for Responsive -->
+            <div class="swiper image-gallery">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+          <!-- Image Gallery for Responsive -->
+          <div
+            class="d-flex flex-column justify-content-start me-4 px-4 px-lg-0"
+            data-container="right-sidebar"
+            data-screen="main"
+            style="width: 35%"
+          >
+            <div class="d-flex" data-container="images-container">
+              <!-- Icon Sidebar -->
+              <div data-container="icons-sidebar">
+                <ul class="d-flex flex-column gap-3 me-4">
+                  <li>
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="favoriteOff"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M7.5 3a6 6 0 00-3.844 10.607l6.982 6.492a2 2 0 002.724 0l6.993-6.503C21.685 12.504 22.5 10.818 22.5 9A6 6 0 0012 5.03 5.995 5.995 0 007.5 3zm-2.502 9.124l-.044-.039a4 4 0 116.147-4.83 1 1 0 001.799 0A4 4 0 0120.5 9a3.99 3.99 0 01-1.461 3.091L12 18.634l-7.002-6.51z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#424750">
+                          <path
+                            fill-rule="evenodd"
+                            d="M7.5 3a6 6 0 00-3.844 10.607l6.982 6.492a2 2 0 002.724 0l6.993-6.503C21.685 12.504 22.5 10.818 22.5 9A6 6 0 0012 5.03 5.995 5.995 0 007.5 3zm-2.502 9.124l-.044-.039a4 4 0 116.147-4.83 1 1 0 001.799 0A4 4 0 0120.5 9a3.99 3.99 0 01-1.461 3.091L12 18.634l-7.002-6.51z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="share"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M15.917 14.16l-6.94 3.47a3 3 0 11-.895-1.789l6.94-3.47a3.021 3.021 0 010-.742l-6.94-3.47a3 3 0 11.895-1.789l6.94 3.47a3 3 0 110 4.319z"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#424750">
+                          <path
+                            d="M15.917 14.16l-6.94 3.47a3 3 0 11-.895-1.789l6.94-3.47a3.021 3.021 0 010-.742l-6.94-3.47a3 3 0 11.895-1.789l6.94 3.47a3 3 0 110 4.319z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="notificationActiveOutline"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M3.667 13.886A2.001 2.001 0 005 12V9a7 7 0 0114 0v3c0 .854.54 1.606 1.333 1.886a1 1 0 01.667.943V19a1 1 0 01-1 1H4a1 1 0 01-1-1v-4.17a1 1 0 01.667-.944zM19 18v-2.535A4 4 0 0117 12V9A5 5 0 007 9v3a4 4 0 01-2 3.465V18h14zm-7 5c-1.385 0-2.563-.835-3-2h6c-.437 1.165-1.615 2-3 2zm6.02-19.262l1.504-1.318a9.964 9.964 0 012.477 6.589h-2a7.964 7.964 0 00-1.981-5.27zM4 9.008c0-1.966.711-3.82 1.981-5.27L4.477 2.42A9.964 9.964 0 002 9.009h2z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#424750">
+                          <path
+                            fill-rule="evenodd"
+                            d="M3.667 13.886A2.001 2.001 0 005 12V9a7 7 0 0114 0v3c0 .854.54 1.606 1.333 1.886a1 1 0 01.667.943V19a1 1 0 01-1 1H4a1 1 0 01-1-1v-4.17a1 1 0 01.667-.944zM19 18v-2.535A4 4 0 0117 12V9A5 5 0 007 9v3a4 4 0 01-2 3.465V18h14zm-7 5c-1.385 0-2.563-.835-3-2h6c-.437 1.165-1.615 2-3 2zm6.02-19.262l1.504-1.318a9.964 9.964 0 012.477 6.589h-2a7.964 7.964 0 00-1.981-5.27zM4 9.008c0-1.966.711-3.82 1.981-5.27L4.477 2.42A9.964 9.964 0 002 9.009h2z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="priceChart"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M4 18V4H2v15a1 1 0 001 1h19v-2H4zM22 8a2 2 0 10-3.933.517l-2.55 2.55a2.003 2.003 0 00-1.034 0l-1.55-1.55A2.003 2.003 0 0011 7a2 2 0 00-1.933 2.517l-1.55 1.55A2.003 2.003 0 005 13a2 2 0 103.933-.517l1.55-1.55a2.003 2.003 0 001.035 0l1.55 1.55A2.003 2.003 0 0015 15a2 2 0 001.933-2.517l2.55-2.55A2.002 2.002 0 0022 8z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#424750">
+                          <path
+                            fill-rule="evenodd"
+                            d="M4 18V4H2v15a1 1 0 001 1h19v-2H4zM22 8a2 2 0 10-3.933.517l-2.55 2.55a2.003 2.003 0 00-1.034 0l-1.55-1.55A2.003 2.003 0 0011 7a2 2 0 00-1.933 2.517l-1.55 1.55A2.003 2.003 0 005 13a2 2 0 103.933-.517l1.55-1.55a2.003 2.003 0 001.035 0l1.55 1.55A2.003 2.003 0 0015 15a2 2 0 001.933-2.517l2.55-2.55A2.002 2.002 0 0022 8z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="compare"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M13 2h-2v2H4a2 2 0 00-2 2v12a2 2 0 002 2h7v2h2V2zm1 16v2h6a2 2 0 002-2V6a2 2 0 00-2-2h-6v2h6v12h-6z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#424750">
+                          <path
+                            fill-rule="evenodd"
+                            d="M13 2h-2v2H4a2 2 0 00-2 2v12a2 2 0 002 2h7v2h2V2zm1 16v2h6a2 2 0 002-2V6a2 2 0 00-2-2h-6v2h6v12h-6z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="list"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M15 6v2H5V6h10zm0 7v-2H5v2h10zm0 5v-2H5v2h10zm5-5v-2h-3v2h3zm0 3v2h-3v-2h3zm0-8V6h-3v2h3z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#424750">
+                          <path
+                            fill-rule="evenodd"
+                            d="M15 6v2H5V6h10zm0 7v-2H5v2h10zm0 5v-2H5v2h10zm5-5v-2h-3v2h3zm0 3v2h-3v-2h3zm0-8V6h-3v2h3z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <!-- Icon Sidebar -->
+
+              <!-- Image Gallery -->
+              <!-- Button trigger modal -->
+              <div
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#imageGallery"
+                data-container="hero-image"
+              >
+                <img
+                  src="./img/product-details/image-gallery/image-gallery01.jpg"
+                  width="100%"
+                />
+              </div>
+            </div>
+            <div
+              class="d-flex gap-3 mt-4 justify-content-center"
+              data-container="extra-images"
+            >
+              <div
+                class="position-relative p-1 border rounded-4 overflow-hidden"
+                style="width: fit-content"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#imageGallery"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center"
+                  style="width: 72px; height: 72px"
+                >
+                  <img
+                    src="./img/product-details/image-gallery/image-gallery01.jpg"
+                    width="95%"
+                    height="95%"
+                    style="filter: blur(4px)"
+                  />
+                </div>
+                <div
+                  class="position-absolute bg-white w-100 h-100"
+                  style="left: 0; top: 0; opacity: 0.5"
+                ></div>
+                <svg
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="position-absolute"
+                  style="left: 50%; top: 50%; transform: translate(-50%, -50%)"
+                  width="24"
+                  height="24"
+                >
+                  <defs>
+                    <symbol
+                      id="video"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M12 3c2.372 0 4.989.256 7.86.767l.712.13a2 2 0 011.562 1.46C22.711 7.57 23 9.785 23 12c0 1.994-.234 3.988-.704 5.991l-.162.651a2 2 0 01-1.562 1.46C17.425 20.7 14.568 21 12 21c-2.372 0-4.989-.256-7.86-.767l-.712-.13a2 2 0 01-1.562-1.46A26.229 26.229 0 011 12c0-1.994.234-3.988.704-5.991l.162-.651a2 2 0 011.562-1.46C6.575 3.3 9.432 3 12 3zm0 2c-2.435 0-5.169.287-8.2.863l-.152.615A24.091 24.091 0 003 12c0 2.044.267 4.09.8 6.137l.697.128C7.251 18.755 9.753 19 12 19c2.435 0 5.169-.287 8.2-.863l.152-.615A24.09 24.09 0 0021 12c0-2.044-.267-4.09-.8-6.137l-.697-.128C16.749 5.245 14.247 5 12 5zm4 7L9 8v8l7-4z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </symbol>
+                  </defs>
+                  <g fill="#424750">
+                    <path
+                      fill-rule="evenodd"
+                      d="M12 3c2.372 0 4.989.256 7.86.767l.712.13a2 2 0 011.562 1.46C22.711 7.57 23 9.785 23 12c0 1.994-.234 3.988-.704 5.991l-.162.651a2 2 0 01-1.562 1.46C17.425 20.7 14.568 21 12 21c-2.372 0-4.989-.256-7.86-.767l-.712-.13a2 2 0 01-1.562-1.46A26.229 26.229 0 011 12c0-1.994.234-3.988.704-5.991l.162-.651a2 2 0 011.562-1.46C6.575 3.3 9.432 3 12 3zm0 2c-2.435 0-5.169.287-8.2.863l-.152.615A24.091 24.091 0 003 12c0 2.044.267 4.09.8 6.137l.697.128C7.251 18.755 9.753 19 12 19c2.435 0 5.169-.287 8.2-.863l.152-.615A24.09 24.09 0 0021 12c0-2.044-.267-4.09-.8-6.137l-.697-.128C16.749 5.245 14.247 5 12 5zm4 7L9 8v8l7-4z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <div
+                class="p-1 border rounded-4"
+                style="width: fit-content"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#imageGallery"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center"
+                  style="width: 72px; height: 72px"
+                >
+                  <img
+                    src="./img/product-details/image-gallery/image-gallery02.jpg"
+                    width="95%"
+                    height="95%"
+                  />
+                </div>
+              </div>
+              <div
+                class="p-1 border rounded-4"
+                style="width: fit-content"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#imageGallery"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center"
+                  style="width: 72px; height: 72px"
+                >
+                  <img
+                    src="./img/product-details/image-gallery/image-gallery03.jpg"
+                    width="95%"
+                    height="95%"
+                  />
+                </div>
+              </div>
+              <div
+                class="p-1 border rounded-4"
+                style="width: fit-content"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#imageGallery"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center"
+                  style="width: 72px; height: 72px"
+                >
+                  <img
+                    src="./img/product-details/image-gallery/image-gallery04.jpg"
+                    width="95%"
+                    height="95%"
+                  />
+                </div>
+              </div>
+              <div
+                class="position-relative p-1 border rounded-4 overflow-hidden"
+                style="width: fit-content"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#imageGallery"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center"
+                  style="width: 72px; height: 72px"
+                >
+                  <img
+                    src="./img/product-details/image-gallery/image-gallery05.jpg"
+                    width="95%"
+                    height="95%"
+                    style="filter: blur(4px)"
+                  />
+                </div>
+                <div
+                  class="position-absolute bg-white w-100 h-100"
+                  style="left: 0; top: 0; opacity: 0.5"
+                ></div>
+                <svg
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="position-absolute"
+                  style="left: 50%; top: 50%; transform: translate(-50%, -50%)"
+                  width="24"
+                  height="24"
+                >
+                  <defs>
+                    <symbol
+                      id="moreHoriz"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16 12c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2zm-4-2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-8 2c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </symbol>
+                  </defs>
+                  <g fill="#424750">
+                    <path
+                      fill-rule="evenodd"
+                      d="M16 12c0 1.1.9 2 2 2s2-.9 2-2-.9-2-2-2-2 .9-2 2zm-4-2c-1.1 0-2 .9-2 2s.9 2 2 2 2-.9 2-2-.9-2-2-2zm-8 2c0-1.1.9-2 2-2s2 .9 2 2-.9 2-2 2-2-.9-2-2z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </div>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="imageGallery"
+              tabindex="-1"
+              aria-labelledby="imageGalleryLabel"
+              aria-hidden="true"
+            >
+              <div
+                class="modal-dialog modal-dialog-centered modal-dialog-scrollable imageGallery-dialog"
+              >
+                <div class="modal-content imageGallery-content">
+                  <div class="modal-header imageGallery-header">
+                    <div
+                      class="d-flex align-items-center justify-content-between w-100 border-bottom"
+                    >
+                      <ul class="nav d-flex" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button
+                            class="active position-relative px-4 py-2 d-flex align-items-center flex-grow-1 justify-content-center fw-bold"
+                            id="official-tab"
+                            data-bs-toggle="tab"
+                            data-bs-target="#official"
+                            type="button"
+                            role="tab"
+                            aria-controls="official"
+                            aria-selected="true"
+                          >
+                            تصاویر رسمی
+                            <div class="position-absolute bg-danger"></div>
+                          </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button
+                            class="position-relative px-4 py-2 d-flex align-items-center flex-grow-1 justify-content-center fw-bold"
+                            id="customers-tab"
+                            data-bs-toggle="tab"
+                            data-bs-target="#customers"
+                            type="button"
+                            role="tab"
+                            aria-controls="customers"
+                            aria-selected="false"
+                          >
+                            تصاویر خریداران
+                            <div class="position-absolute bg-danger"></div>
+                          </button>
+                        </li>
+                      </ul>
+                      <button
+                        type="button"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      >
+                        <svg
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="
+                            width: 24px;
+                            height: 24px;
+                            fill: var(--color-icon-high-emphasis);
+                          "
+                          width="24"
+                          height="24"
+                        >
+                          <defs>
+                            <symbol
+                              id="close"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M18.364 7.05L16.95 5.636 12 10.586l-4.95-4.95L5.636 7.05l4.95 4.95-4.95 4.95 1.414 1.414 4.95-4.95 4.95 4.95 1.414-1.414-4.95-4.95 4.95-4.95z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </symbol>
+                          </defs>
+                          <g fill="#424750">
+                            <path
+                              fill-rule="evenodd"
+                              d="M18.364 7.05L16.95 5.636 12 10.586l-4.95-4.95L5.636 7.05l4.95 4.95-4.95 4.95 1.414 1.414 4.95-4.95 4.95 4.95 1.414-1.414-4.95-4.95 4.95-4.95z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </g>
+                        </svg>
+                      </button>
+                    </div>
+                  </div>
+                  <div class="modal-body imageGallery-body">
+                    <div class="tab-content" id="myTabContent">
+                      <div
+                        class="tab-pane fade show active"
+                        id="official"
+                        role="tabpanel"
+                        aria-labelledby="official-tab"
+                      >
+                        <div class="d-flex gap-5">
+                          <div class="rounded" style="width: 60%">
+                            <!-- Image Gallery for Responsive -->
+                            <div class="swiper expanded-gallery">
+                              <!-- Additional required wrapper -->
+                              <div class="swiper-wrapper">
+                                <!-- Slides -->
+                              </div>
+                              <!-- If we need navigation buttons -->
+                              <div class="swiper-button swiper-button-next">
+                                <svg
+                                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="24"
+                                >
+                                  <defs>
+                                    <symbol
+                                      id="chevronLeft"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                                      ></path>
+                                    </symbol>
+                                  </defs>
+                                  <g>
+                                    <path
+                                      d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                                    ></path>
+                                  </g>
+                                </svg>
+                              </div>
+                              <div class="swiper-button swiper-button-prev">
+                                <svg
+                                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="24"
+                                  height="24"
+                                >
+                                  <defs>
+                                    <symbol
+                                      id="chevronRight"
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      viewBox="0 0 24 24"
+                                    >
+                                      <path
+                                        d="M12.583 12L8.29 16.293l1.414 1.414 5-5a1 1 0 000-1.414l-5-5L8.29 7.707 12.583 12z"
+                                      ></path>
+                                    </symbol>
+                                  </defs>
+                                  <g>
+                                    <path
+                                      d="M12.583 12L8.29 16.293l1.414 1.414 5-5a1 1 0 000-1.414l-5-5L8.29 7.707 12.583 12z"
+                                    ></path>
+                                  </g>
+                                </svg>
+                              </div>
+                            </div>
+                          </div>
+                          <div style="width: 40%">
+                            <div>
+                              <h1
+                                class="fs-4 fw-bold"
+                                style="font-size: 2rem; line-height: 3rem"
+                              >
+                                گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت
+                                ظرفیت 128 گیگابایت و رم 4 گیگابایت - نات اکتیو
+                              </h1>
+                              <div class="expanded-gallery-images row-gap-2">
+                                <div
+                                  class="position-relative p-1 border border-2 rounded-4 overflow-hidden"
+                                  style="width: fit-content"
+                                >
+                                  <div
+                                    class="d-flex align-items-center justify-content-center"
+                                    style="width: 60px; height: 60px"
+                                  >
+                                    <img
+                                      src="./img/product-details/image-gallery/image-gallery01.jpg"
+                                      width="100%"
+                                      height="100%"
+                                    />
+                                  </div>
+                                  <div
+                                    class="position-absolute bg-dark w-100 h-100"
+                                    style="left: 0; top: 0; opacity: 0.7"
+                                  ></div>
+                                  <svg
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="position-absolute"
+                                    style="
+                                      left: 50%;
+                                      top: 50%;
+                                      transform: translate(-50%, -50%);
+                                    "
+                                    width="24"
+                                    height="24"
+                                  >
+                                    <defs>
+                                      <symbol
+                                        id="video"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                      >
+                                        <path
+                                          fill-rule="evenodd"
+                                          d="M12 3c2.372 0 4.989.256 7.86.767l.712.13a2 2 0 011.562 1.46C22.711 7.57 23 9.785 23 12c0 1.994-.234 3.988-.704 5.991l-.162.651a2 2 0 01-1.562 1.46C17.425 20.7 14.568 21 12 21c-2.372 0-4.989-.256-7.86-.767l-.712-.13a2 2 0 01-1.562-1.46A26.229 26.229 0 011 12c0-1.994.234-3.988.704-5.991l.162-.651a2 2 0 011.562-1.46C6.575 3.3 9.432 3 12 3zm0 2c-2.435 0-5.169.287-8.2.863l-.152.615A24.091 24.091 0 003 12c0 2.044.267 4.09.8 6.137l.697.128C7.251 18.755 9.753 19 12 19c2.435 0 5.169-.287 8.2-.863l.152-.615A24.09 24.09 0 0021 12c0-2.044-.267-4.09-.8-6.137l-.697-.128C16.749 5.245 14.247 5 12 5zm4 7L9 8v8l7-4z"
+                                          clip-rule="evenodd"
+                                        ></path>
+                                      </symbol>
+                                    </defs>
+                                    <g fill="#ffffff">
+                                      <path
+                                        fill-rule="evenodd"
+                                        d="M12 3c2.372 0 4.989.256 7.86.767l.712.13a2 2 0 011.562 1.46C22.711 7.57 23 9.785 23 12c0 1.994-.234 3.988-.704 5.991l-.162.651a2 2 0 01-1.562 1.46C17.425 20.7 14.568 21 12 21c-2.372 0-4.989-.256-7.86-.767l-.712-.13a2 2 0 01-1.562-1.46A26.229 26.229 0 011 12c0-1.994.234-3.988.704-5.991l.162-.651a2 2 0 011.562-1.46C6.575 3.3 9.432 3 12 3zm0 2c-2.435 0-5.169.287-8.2.863l-.152.615A24.091 24.091 0 003 12c0 2.044.267 4.09.8 6.137l.697.128C7.251 18.755 9.753 19 12 19c2.435 0 5.169-.287 8.2-.863l.152-.615A24.09 24.09 0 0021 12c0-2.044-.267-4.09-.8-6.137l-.697-.128C16.749 5.245 14.247 5 12 5zm4 7L9 8v8l7-4z"
+                                        clip-rule="evenodd"
+                                      ></path>
+                                    </g>
+                                  </svg>
+                                </div>
+                              </div>
+                              <div
+                                class="d-flex align-items-center justify-content-between"
+                              >
+                                <div class="d-flex gap-2">
+                                  <div
+                                    class="p-1 rounded-4 overflow-hidden"
+                                    style="width: fit-content"
+                                  >
+                                    <div
+                                      class="d-flex align-items-center justify-content-center"
+                                      style="width: 30px; height: 30px"
+                                    >
+                                      <img
+                                        src="./img/product-details/image-gallery/image-gallery02.jpg"
+                                        width="110%"
+                                        height="110%"
+                                      />
+                                    </div>
+                                  </div>
+                                  <div
+                                    class="p-1 rounded-4 overflow-hidden"
+                                    style="width: fit-content"
+                                  >
+                                    <div
+                                      class="d-flex align-items-center justify-content-center"
+                                      style="width: 30px; height: 30px"
+                                    >
+                                      <img
+                                        src="./img/product-details/image-gallery/image-gallery02.jpg"
+                                        width="110%"
+                                        height="110%"
+                                      />
+                                    </div>
+                                  </div>
+                                </div>
+                                <div>
+                                  <a
+                                    class="d-inline-flex align-items-center my-lg-5 mb-auto"
+                                    ><p style="color: #19bfd3">
+                                      <span>0</span> تصویر دیگر
+                                    </p>
+                                    <div class="d-flex">
+                                      <svg
+                                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        width="24"
+                                        height="24"
+                                      >
+                                        <defs>
+                                          <symbol
+                                            id="chevronLeft"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                          >
+                                            <path
+                                              d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                                            ></path>
+                                          </symbol>
+                                        </defs>
+                                        <g fill="#19BFD3">
+                                          <path
+                                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                                          ></path>
+                                        </g>
+                                      </svg></div
+                                  ></a>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="tab-pane fade"
+                        id="customers"
+                        role="tabpanel"
+                        aria-labelledby="customers-tab"
+                      >
+                        <div class="customers-expanded-gallery row-gap-3">
+                          <div
+                            class="position-relative p-1 border border-2 rounded-4 overflow-hidden"
+                            style="width: fit-content"
+                          >
+                            <div
+                              class="d-flex align-items-center justify-content-center"
+                              style="width: 90px; height: 90px"
+                            >
+                              <img
+                                src="./img/product-details/image-gallery/image-gallery01.jpg"
+                                width="100%"
+                                height="100%"
+                              />
+                            </div>
+                            <div
+                              class="position-absolute bg-dark w-100 h-100"
+                              style="left: 0; top: 0; opacity: 0.7"
+                            ></div>
+                            <svg
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              xmlns="http://www.w3.org/2000/svg"
+                              class="position-absolute"
+                              style="
+                                left: 50%;
+                                top: 50%;
+                                transform: translate(-50%, -50%);
+                              "
+                              width="24"
+                              height="24"
+                            >
+                              <defs>
+                                <symbol
+                                  id="video"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M12 3c2.372 0 4.989.256 7.86.767l.712.13a2 2 0 011.562 1.46C22.711 7.57 23 9.785 23 12c0 1.994-.234 3.988-.704 5.991l-.162.651a2 2 0 01-1.562 1.46C17.425 20.7 14.568 21 12 21c-2.372 0-4.989-.256-7.86-.767l-.712-.13a2 2 0 01-1.562-1.46A26.229 26.229 0 011 12c0-1.994.234-3.988.704-5.991l.162-.651a2 2 0 011.562-1.46C6.575 3.3 9.432 3 12 3zm0 2c-2.435 0-5.169.287-8.2.863l-.152.615A24.091 24.091 0 003 12c0 2.044.267 4.09.8 6.137l.697.128C7.251 18.755 9.753 19 12 19c2.435 0 5.169-.287 8.2-.863l.152-.615A24.09 24.09 0 0021 12c0-2.044-.267-4.09-.8-6.137l-.697-.128C16.749 5.245 14.247 5 12 5zm4 7L9 8v8l7-4z"
+                                    clip-rule="evenodd"
+                                  ></path>
+                                </symbol>
+                              </defs>
+                              <g fill="#ffffff">
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M12 3c2.372 0 4.989.256 7.86.767l.712.13a2 2 0 011.562 1.46C22.711 7.57 23 9.785 23 12c0 1.994-.234 3.988-.704 5.991l-.162.651a2 2 0 01-1.562 1.46C17.425 20.7 14.568 21 12 21c-2.372 0-4.989-.256-7.86-.767l-.712-.13a2 2 0 01-1.562-1.46A26.229 26.229 0 011 12c0-1.994.234-3.988.704-5.991l.162-.651a2 2 0 011.562-1.46C6.575 3.3 9.432 3 12 3zm0 2c-2.435 0-5.169.287-8.2.863l-.152.615A24.091 24.091 0 003 12c0 2.044.267 4.09.8 6.137l.697.128C7.251 18.755 9.753 19 12 19c2.435 0 5.169-.287 8.2-.863l.152-.615A24.09 24.09 0 0021 12c0-2.044-.267-4.09-.8-6.137l-.697-.128C16.749 5.245 14.247 5 12 5zm4 7L9 8v8l7-4z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal-footer imageGallery-footer">
+                    <button
+                      class="text-white rounded-4 p-2 px-4 mt-3"
+                      style="background: var(--color-button-primary)"
+                    >
+                      افزودن به سبد خرید
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Image Gallery -->
+          <div
+            class="d-flex flex-column"
+            style="flex: 1"
+            data-container="main-sidebar"
+          >
+            <div
+              class="d-flex flex-column gap-1 mb-2 px-4 px-lg-0"
+              data-container="title"
+            >
+              <div class="directory d-flex fs-5 fw-bold gap-2">
+                <p class="color-secondary">اپل</p>
+                <div class="category-divider fs-6">/</div>
+                <p class="color-secondary">گوشی موبایل اپل</p>
+              </div>
+              <h1
+                class="fs-4 fw-bold"
+                style="font-size: 2rem; line-height: 3rem"
+              >
+                گوشی موبایل اپل مدل iPhone 13 CH دو سیم‌ کارت ظرفیت 128 گیگابایت
+                و رم 4 گیگابایت - نات اکتیو
+              </h1>
+            </div>
+            <div
+              class="gap-3 main-container"
+              data-container="details-container"
+              style="flex: 1"
+            >
+              <div class="px-4 px-lg-0" id="main-details">
+                <div class="d-none d-lg-block">
+                  <p class="fs-5 color-gray">
+                    Apple iPhone 13 CH Dual SIM 128GB And 4GB RAM Mobile Phone -
+                    Not Active
+                  </p>
+                </div>
+                <div
+                  class="d-flex flex-column flex-md-row align-items-start align-items-lg-center ratings"
+                >
+                  <div class="d-flex align-items-center gap-1">
+                    <img
+                      class="mb-1"
+                      src="./img/product-details/star-yellow.png"
+                      style="scale: 0.7"
+                    />
+                    <span>4.4</span>
+                    <span class="color-gray">(2610)</span>
+                  </div>
+                  <div class="d-flex m-2">
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                    >
+                      <defs>
+                        <symbol
+                          id="dotOutline"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 16 16"
+                        >
+                          <circle cx="8" cy="8" r="2"></circle>
+                        </symbol>
+                      </defs>
+                      <g fill="#e0e0e2">
+                        <circle cx="8" cy="8" r="2"></circle>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="d-flex align-items-center color-secondary gap-1">
+                    <span>4278</span> دیدگاه
+                  </div>
+                  <div class="d-flex m-2">
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                    >
+                      <defs>
+                        <symbol
+                          id="dotOutline"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 16 16"
+                        >
+                          <circle cx="8" cy="8" r="2"></circle>
+                        </symbol>
+                      </defs>
+                      <g fill="#e0e0e2">
+                        <circle cx="8" cy="8" r="2"></circle>
+                      </g>
+                    </svg>
+                  </div>
+                  <div class="d-flex align-items-center color-secondary gap-1">
+                    <span>1334</span> پرسش
+                  </div>
+                </div>
+                <div
+                  class="d-flex align-items-center fs-5"
+                  data-container="user-suggestions"
+                >
+                  <div class="d-flex mb-1">
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="scale: 0.7"
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="thumbsUp"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M7.5 8l3.15-4.2a4.5 4.5 0 013.6-1.8 2.483 2.483 0 012.449 2.89L16.18 8h2.424a3 3 0 012.951 3.537l-.974 5.357A5 5 0 0115.661 21h-6.55c-.148 0-.294-.033-.428-.096l-.824-.39A1 1 0 017 21H3a1 1 0 01-1-1V9a1 1 0 011-1h4.5zm.5 2v8.367L9.336 19h6.326a3 3 0 002.951-2.463l.974-5.358A1 1 0 0018.603 10H15a1 1 0 01-.986-1.164l.712-4.274A.482.482 0 0014.25 4a2.5 2.5 0 00-2 1L8.8 9.6a1 1 0 01-.8.4zm-2 0H4v9h2v-9z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <g fill="#4CAF50">
+                        <path
+                          fill-rule="evenodd"
+                          d="M7.5 8l3.15-4.2a4.5 4.5 0 013.6-1.8 2.483 2.483 0 012.449 2.89L16.18 8h2.424a3 3 0 012.951 3.537l-.974 5.357A5 5 0 0115.661 21h-6.55c-.148 0-.294-.033-.428-.096l-.824-.39A1 1 0 017 21H3a1 1 0 01-1-1V9a1 1 0 011-1h4.5zm.5 2v8.367L9.336 19h6.326a3 3 0 002.951-2.463l.974-5.358A1 1 0 0018.603 10H15a1 1 0 01-.986-1.164l.712-4.274A.482.482 0 0014.25 4a2.5 2.5 0 00-2 1L8.8 9.6a1 1 0 01-.8.4zm-2 0H4v9h2v-9z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <p class="mb-0">
+                    <span class="suggesting-comments color-gray-600"
+                      >۸۶% (۷۶۰ نفر)</span
+                    >
+                    از خریداران، این کالا را پیشنهاد کرده‌اند
+                  </p>
+                  <div>
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="scale: 0.7"
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="infoOutline"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm18 0a8 8 0 11-16 0 8 8 0 0116 0zm-10-2h3v7h-2v-5h-1v-2zm3-2a1 1 0 10-2 0 1 1 0 002 0z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <g fill="#a1a3a8">
+                        <path
+                          fill-rule="evenodd"
+                          d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm18 0a8 8 0 11-16 0 8 8 0 0116 0zm-10-2h3v7h-2v-5h-1v-2zm3-2a1 1 0 10-2 0 1 1 0 002 0z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+                <div
+                  class="d-flex flex-column gap-3 pt-0 pt-lg-2"
+                  style="max-width: 100vw"
+                >
+                  <div
+                    class="d-flex justify-content-between align-items-center"
+                  >
+                    <p class="fs-4 fw-bold">
+                      رنگ: <span class="color-name__container">صورتی</span>
+                    </p>
+                    <p
+                      class="fs-6 fw-bold"
+                      style="color: var(--color-gray-500)"
+                      data-screen="responsive"
+                    >
+                      <span class="color-count">0</span> رنگ
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex gap-3 gap-lg-2 w-100 overflow-x-auto p-1 colors-container"
+                  >
+                    <!-- Color Select for Responsive -->
+
+                    <!-- Color Select Component -->
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column gap-3 pb-4 pb-lg-0 px-4 px-lg-0"
+                data-container="insurance"
+              >
+                <p class="fs-4 fw-bold">بیمه</p>
+                <div class="d-flex border rounded-4">
+                  <div
+                    class="d-flex align-items-center justify-content-center border-end p-4"
+                  >
+                    <input type="checkbox" />
+                  </div>
+                  <div
+                    class="d-flex flex-column flex-md-row p-3 justify-content-between"
+                    style="flex: 1"
+                  >
+                    <div>
+                      <div>
+                        <p style="font-size: 13px">
+                          بیمه تجهیزات دیجیتال - بیمه پارسیان
+                        </p>
+                      </div>
+                      <div
+                        class="d-flex flex-column flex-md-row fs-5 align-items-start align-items-md-center gap-3"
+                      >
+                        <div
+                          class="rounded-pill"
+                          style="background: var(--color-primary-700)"
+                        >
+                          <p
+                            class="d-block text-white lh-base"
+                            style="padding: 1px 8px"
+                          >
+                            ۲۰٪
+                          </p>
+                        </div>
+                        <div>
+                          <p
+                            class="text-decoration-line-through"
+                            style="color: var(--color-gray-300)"
+                          >
+                            ۱,۰۸۳,۴۶۰
+                          </p>
+                        </div>
+                        <div class="d-flex gap-1">
+                          <span class="fw-bold">۸۶۶,۵۵۰</span>
+                          <div>
+                            <svg
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14"
+                              height="14"
+                            >
+                              <defs>
+                                <symbol
+                                  id="toman"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 14 14"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M3.057 1.742L3.821 1l.78.75-.776.741-.768-.749zm3.23 2.48c0 .622-.16 1.111-.478 1.467-.201.221-.462.39-.783.505a3.251 3.251 0 01-1.083.163h-.555c-.421 0-.801-.074-1.139-.223a2.045 2.045 0 01-.9-.738A2.238 2.238 0 011 4.148c0-.059.001-.117.004-.176.03-.55.204-1.158.525-1.827l1.095.484c-.257.532-.397 1-.419 1.403-.002.04-.004.08-.004.12 0 .252.055.458.166.618a.887.887 0 00.5.354c.085.028.178.048.278.06.079.01.16.014.243.014h.555c.458 0 .769-.081.933-.244.14-.139.21-.383.21-.731V2.02h1.2v2.202zm5.433 3.184l-.72-.7.709-.706.735.707-.724.7zm-2.856.308c.542 0 .973.19 1.293.569.297.346.445.777.445 1.293v.364h.18v-.004h.41c.221 0 .377-.028.467-.084.093-.055.14-.14.14-.258v-.069c.004-.243.017-1.044 0-1.115L13 8.05v1.574a1.4 1.4 0 01-.287.863c-.306.405-.804.607-1.495.607h-.627c-.061.733-.434 1.257-1.117 1.573-.267.122-.58.21-.937.265a5.845 5.845 0 01-.914.067v-1.159c.612 0 1.072-.082 1.38-.247.25-.132.376-.298.376-.499h-.515c-.436 0-.807-.113-1.113-.339-.367-.273-.55-.667-.55-1.18 0-.488.122-.901.367-1.24.296-.415.728-.622 1.296-.622zm.533 2.226v-.364c0-.217-.048-.389-.143-.516a.464.464 0 00-.39-.187.478.478 0 00-.396.187.705.705 0 00-.136.449.65.65 0 00.003.067c.008.125.066.22.177.283.093.054.21.08.352.08h.533zM9.5 6.707l.72.7.724-.7L10.209 6l-.709.707zm-6.694 4.888h.03c.433-.01.745-.106.937-.29.024.012.065.035.12.068l.074.039.081.042c.135.073.261.133.379.18.345.146.67.22.977.22a1.216 1.216 0 00.87-.34c.3-.285.449-.714.449-1.286a2.19 2.19 0 00-.335-1.145c-.299-.457-.732-.685-1.3-.685-.502 0-.916.192-1.242.575-.113.132-.21.284-.294.456-.032.062-.06.125-.084.191a.504.504 0 00-.03.078 1.67 1.67 0 00-.022.06c-.103.309-.171.485-.205.53-.072.09-.214.14-.427.147-.123-.005-.209-.03-.256-.076-.057-.054-.085-.153-.085-.297V7l-1.201-.5v3.562c0 .261.048.496.143.703.071.158.168.296.29.413.123.118.266.211.43.28.198.084.42.13.665.136v.001h.036zm2.752-1.014a.778.778 0 00.044-.353.868.868 0 00-.165-.47c-.1-.134-.217-.201-.35-.201-.18 0-.33.103-.447.31-.042.071-.08.158-.114.262a2.434 2.434 0 00-.04.12l-.015.053-.015.046c.142.118.323.216.544.293.18.062.325.092.433.092.044 0 .086-.05.125-.152z"
+                                    clip-rule="evenodd"
+                                  ></path>
+                                </symbol>
+                              </defs>
+                              <g fill="#424750">
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M3.057 1.742L3.821 1l.78.75-.776.741-.768-.749zm3.23 2.48c0 .622-.16 1.111-.478 1.467-.201.221-.462.39-.783.505a3.251 3.251 0 01-1.083.163h-.555c-.421 0-.801-.074-1.139-.223a2.045 2.045 0 01-.9-.738A2.238 2.238 0 011 4.148c0-.059.001-.117.004-.176.03-.55.204-1.158.525-1.827l1.095.484c-.257.532-.397 1-.419 1.403-.002.04-.004.08-.004.12 0 .252.055.458.166.618a.887.887 0 00.5.354c.085.028.178.048.278.06.079.01.16.014.243.014h.555c.458 0 .769-.081.933-.244.14-.139.21-.383.21-.731V2.02h1.2v2.202zm5.433 3.184l-.72-.7.709-.706.735.707-.724.7zm-2.856.308c.542 0 .973.19 1.293.569.297.346.445.777.445 1.293v.364h.18v-.004h.41c.221 0 .377-.028.467-.084.093-.055.14-.14.14-.258v-.069c.004-.243.017-1.044 0-1.115L13 8.05v1.574a1.4 1.4 0 01-.287.863c-.306.405-.804.607-1.495.607h-.627c-.061.733-.434 1.257-1.117 1.573-.267.122-.58.21-.937.265a5.845 5.845 0 01-.914.067v-1.159c.612 0 1.072-.082 1.38-.247.25-.132.376-.298.376-.499h-.515c-.436 0-.807-.113-1.113-.339-.367-.273-.55-.667-.55-1.18 0-.488.122-.901.367-1.24.296-.415.728-.622 1.296-.622zm.533 2.226v-.364c0-.217-.048-.389-.143-.516a.464.464 0 00-.39-.187.478.478 0 00-.396.187.705.705 0 00-.136.449.65.65 0 00.003.067c.008.125.066.22.177.283.093.054.21.08.352.08h.533zM9.5 6.707l.72.7.724-.7L10.209 6l-.709.707zm-6.694 4.888h.03c.433-.01.745-.106.937-.29.024.012.065.035.12.068l.074.039.081.042c.135.073.261.133.379.18.345.146.67.22.977.22a1.216 1.216 0 00.87-.34c.3-.285.449-.714.449-1.286a2.19 2.19 0 00-.335-1.145c-.299-.457-.732-.685-1.3-.685-.502 0-.916.192-1.242.575-.113.132-.21.284-.294.456-.032.062-.06.125-.084.191a.504.504 0 00-.03.078 1.67 1.67 0 00-.022.06c-.103.309-.171.485-.205.53-.072.09-.214.14-.427.147-.123-.005-.209-.03-.256-.076-.057-.054-.085-.153-.085-.297V7l-1.201-.5v3.562c0 .261.048.496.143.703.071.158.168.296.29.413.123.118.266.211.43.28.198.084.42.13.665.136v.001h.036zm2.752-1.014a.778.778 0 00.044-.353.868.868 0 00-.165-.47c-.1-.134-.217-.201-.35-.201-.18 0-.33.103-.447.31-.042.071-.08.158-.114.262a2.434 2.434 0 00-.04.12l-.015.053-.015.046c.142.118.323.216.544.293.18.062.325.092.433.092.044 0 .086-.05.125-.152z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <a
+                        class="d-inline-flex align-items-center my-lg-5 mb-auto"
+                        ><span style="color: #19bfd3">جزئیات</span>
+                        <div class="d-flex">
+                          <svg
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                          >
+                            <defs>
+                              <symbol
+                                id="chevronLeft"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                                ></path>
+                              </symbol>
+                            </defs>
+                            <g fill="#19BFD3">
+                              <path
+                                d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                              ></path>
+                            </g>
+                          </svg></div
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column gap-3 px-4 px-lg-0"
+                data-container="features"
+              >
+                <p class="fs-4 fw-bold">ویژگی‌ها</p>
+                <div>
+                  <ul>
+                    <li class="d-flex align-items-center">
+                      <div>
+                        <svg
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                        >
+                          <defs>
+                            <symbol
+                              id="dotOutline"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                            >
+                              <circle cx="8" cy="8" r="2"></circle>
+                            </symbol>
+                          </defs>
+                          <g fill="#81858b">
+                            <circle cx="8" cy="8" r="2"></circle>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 fs-4">
+                        <p class="color-gray-500" style="font-size: 1.4rem">
+                          فناوری صفحه‌نمایش
+                        </p>
+                        :
+                        <p
+                          class="color-gray-700 fw-bold"
+                          style="font-size: 1.4rem"
+                        >
+                          Super Retina XDR OLED
+                        </p>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <div>
+                        <svg
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                        >
+                          <defs>
+                            <symbol
+                              id="dotOutline"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                            >
+                              <circle cx="8" cy="8" r="2"></circle>
+                            </symbol>
+                          </defs>
+                          <g fill="#81858b">
+                            <circle cx="8" cy="8" r="2"></circle>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 fs-4">
+                        <p class="color-gray-500" style="font-size: 1.4rem">
+                          اندازه
+                        </p>
+                        :
+                        <p
+                          class="color-gray-700 fw-bold"
+                          style="font-size: 1.4rem"
+                        >
+                          6.1
+                        </p>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <div>
+                        <svg
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                        >
+                          <defs>
+                            <symbol
+                              id="dotOutline"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                            >
+                              <circle cx="8" cy="8" r="2"></circle>
+                            </symbol>
+                          </defs>
+                          <g fill="#81858b">
+                            <circle cx="8" cy="8" r="2"></circle>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 fs-4">
+                        <p class="color-gray-500" style="font-size: 1.4rem">
+                          رزولوشن عکس
+                        </p>
+                        :
+                        <p
+                          class="color-gray-700 fw-bold"
+                          style="font-size: 1.4rem"
+                        >
+                          12 مگاپیکسل
+                        </p>
+                      </div>
+                    </li>
+                    <li class="d-flex align-items-center">
+                      <div>
+                        <svg
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="16"
+                          height="16"
+                        >
+                          <defs>
+                            <symbol
+                              id="dotOutline"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 16 16"
+                            >
+                              <circle cx="8" cy="8" r="2"></circle>
+                            </symbol>
+                          </defs>
+                          <g fill="#81858b">
+                            <circle cx="8" cy="8" r="2"></circle>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 fs-4">
+                        <p class="color-gray-500" style="font-size: 1.4rem">
+                          نسخه سیستم عامل
+                        </p>
+                        :
+                        <p
+                          class="color-gray-700 fw-bold"
+                          style="font-size: 1.4rem"
+                        >
+                          iOS 15
+                        </p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="d-flex gap-2 border-top pt-3">
+                  <div class="d-flex">
+                    <svg
+                      xmlns:xlink="http://www.w3.org/1999/xlink"
+                      xmlns="http://www.w3.org/2000/svg"
+                      style="scale: 0.7"
+                      width="24"
+                      height="24"
+                    >
+                      <defs>
+                        <symbol
+                          id="infoFill"
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm10-5a1 1 0 110 2 1 1 0 010-2zm-2 3h3v7h-2v-5h-1v-2z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </symbol>
+                      </defs>
+                      <g fill="#81858B">
+                        <path
+                          fill-rule="evenodd"
+                          d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm10-5a1 1 0 110 2 1 1 0 010-2zm-2 3h3v7h-2v-5h-1v-2z"
+                          clip-rule="evenodd"
+                        ></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <p
+                    class="mb-2 mb-lg-0 fs-5"
+                    style="color: var(--color-gray-500)"
+                  >
+                    امکان برگشت کالا در گروه موبایل با دلیل "انصراف از خرید"
+                    تنها در صورتی مورد قبول است که پلمب کالا باز نشده باشد. تمام
+                    گوشی‌های دیجی‌کالا ضمانت رجیستری دارند. در صورت وجود مشکل
+                    رجیستری، می‌توانید بعد از مهلت قانونی ۳۰ روزه، گوشی
+                    خریداری‌شده را مرجوع کنید.
+                  </p>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column gap-4 mb-lg-4"
+                data-container="offers"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-between bg-white border rounded-4 ps-4"
+                >
+                  <p class="fw-bold">ارسال رایگان برای این کالا</p>
+                  <img
+                    src="./img/product-details/svgexport-34.svg"
+                    width="103px"
+                    style="object-fit: contain"
+                  />
+                </div>
+                <div
+                  class="position-relative d-flex flex-column justify-content-between bg-white border rounded-4 p-4 pe-0"
+                >
+                  <div class="d-flex">
+                    <div
+                      class="d-flex me-2 align-items-center justify-content-center"
+                    >
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="plus"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M20.362 13.877a.738.738 0 00.638-.732v-2.29l-.008-.11a.738.738 0 00-.63-.622l-.1-.007-.16.005-.066-.001-.276.014a5.745 5.745 0 01-4.215-1.68 5.748 5.748 0 01-1.665-4.492L13.88 3.9l.01-.002v-.159l-.008-.11a.739.739 0 00-.63-.621L13.15 3h-2.302l-.1.007a.738.738 0 00-.638.731v.159l.01.002-.001.063a5.748 5.748 0 01-1.665 4.492 5.746 5.746 0 01-4.491 1.666h-.067l-.16-.004-.1.007a.738.738 0 00-.637.732v2.29l.008.11a.738.738 0 00.63.622l.1.007.16-.005.066.001.276-.014a5.745 5.745 0 014.215 1.68 5.748 5.748 0 011.665 4.492l.001.063-.01.002v.159l.008.11a.739.739 0 00.63.621l.1.007h2.302l.1-.007a.738.738 0 00.638-.731v-.159l-.01-.002.001-.063a5.748 5.748 0 011.665-4.492 5.746 5.746 0 014.491-1.666h.067l.16.004.1-.007zM12.06 17.88l-.056.266-.003-.007-.003.014-.056-.273-.081-.322a7.734 7.734 0 00-5.715-5.495L5.835 12l.31-.063a7.737 7.737 0 005.796-5.816l.054-.264.005.004.003-.014.056.273.081.322a7.733 7.733 0 005.715 5.495l.31.063-.31.063a7.737 7.737 0 00-5.796 5.816z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#B12BA4">
+                          <path
+                            fill-rule="evenodd"
+                            d="M20.362 13.877a.738.738 0 00.638-.732v-2.29l-.008-.11a.738.738 0 00-.63-.622l-.1-.007-.16.005-.066-.001-.276.014a5.745 5.745 0 01-4.215-1.68 5.748 5.748 0 01-1.665-4.492L13.88 3.9l.01-.002v-.159l-.008-.11a.739.739 0 00-.63-.621L13.15 3h-2.302l-.1.007a.738.738 0 00-.638.731v.159l.01.002-.001.063a5.748 5.748 0 01-1.665 4.492 5.746 5.746 0 01-4.491 1.666h-.067l-.16-.004-.1.007a.738.738 0 00-.637.732v2.29l.008.11a.738.738 0 00.63.622l.1.007.16-.005.066.001.276-.014a5.745 5.745 0 014.215 1.68 5.748 5.748 0 011.665 4.492l.001.063-.01.002v.159l.008.11a.739.739 0 00.63.621l.1.007h2.302l.1-.007a.738.738 0 00.638-.731v-.159l-.01-.002.001-.063a5.748 5.748 0 011.665-4.492 5.746 5.746 0 014.491-1.666h.067l.16.004.1-.007zM12.06 17.88l-.056.266-.003-.007-.003.014-.056-.273-.081-.322a7.734 7.734 0 00-5.715-5.495L5.835 12l.31-.063a7.737 7.737 0 005.796-5.816l.054-.264.005.004.003-.014.056.273.081.322a7.733 7.733 0 005.715 5.495l.31.063-.31.063a7.737 7.737 0 00-5.796 5.816z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <p style="color: var(--color-plus-500)">
+                      ارسال <strong>رایگان</strong> سفارش‌ها برای اعضای
+                      دیجی‌پلاس
+                    </p>
+                  </div>
+                  <div class="d-flex align-items-center">
+                    <div class="position-relative" style="width: 24px">
+                      <div
+                        class="d-flex align-items-center justify-content-center"
+                      >
+                        <svg
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="20"
+                          height="20"
+                          style="scale: 0.2"
+                        >
+                          <defs>
+                            <symbol
+                              id="variationColor"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 20 20"
+                            >
+                              <path
+                                d="M0 10C0 4.477 4.477 0 10 0s10 4.477 10 10-4.477 10-10 10S0 15.523 0 10z"
+                              ></path>
+                              <path
+                                stroke="#030A16"
+                                stroke-opacity="0.1"
+                                d="M.5 10a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0z"
+                              ></path>
+                            </symbol>
+                          </defs>
+                          <g fill="#B12BA4">
+                            <path
+                              d="M0 10C0 4.477 4.477 0 10 0s10 4.477 10 10-4.477 10-10 10S0 15.523 0 10z"
+                            ></path>
+                            <path
+                              stroke="#030A16"
+                              stroke-opacity="0.1"
+                              d="M.5 10a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0z"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <span class="connecter-line"></span>
+                    </div>
+                    <p class="fs-5" style="color: var(--color-gray-500)">
+                      ارسال فوری برای شهر تهران (رایگان)
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                    style="margin-right: 23px"
+                  >
+                    <a class="d-inline-flex align-items-center mt-2 mb-auto"
+                      ><span style="color: #19bfd3">خرید اشتراک</span>
+                      <div class="d-flex">
+                        <svg
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                        >
+                          <defs>
+                            <symbol
+                              id="chevronLeft"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                              ></path>
+                            </symbol>
+                          </defs>
+                          <g fill="#19BFD3">
+                            <path
+                              d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                            ></path>
+                          </g>
+                        </svg></div
+                    ></a>
+                  </div>
+                  <div class="position-absolute" style="left: 0; bottom: 0">
+                    <img
+                      class="w-100"
+                      src="./img/product-details/svgexport-38.svg"
+                      style="object-fit: contain"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="d-flex flex-column gap-3" data-container="side">
+                <div
+                  class="border rounded-4 py-0 py-lg-4 p-4"
+                  style="background: rgba(240, 240, 240, 0.5)"
+                >
+                  <div
+                    class="w-100 d-flex align-items-center justify-content-between mb-3"
+                  >
+                    <h3 class="fs-4 fw-bold mb-0">فروشنده</h3>
+                    <span class="fs-5" style="color: var(--color-secondary-500)"
+                      >۵ فروشنده دیگر</span
+                    >
+                  </div>
+                  <a href="#"
+                    ><div class="d-flex gap-4 border-bottom py-3">
+                      <div class="position-relative">
+                        <div>
+                          <svg
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                          >
+                            <defs>
+                              <symbol
+                                id="seller"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M19.5 3h-15a1 1 0 00-.959.715l-1.5 5.053A1 1 0 002 9.053V12a1 1 0 001 1h.006l.038 7.006A1 1 0 004.048 21l9.956-.035a1 1 0 00.996-1V13h4v8h2v-8a1 1 0 001-1V9.053a1 1 0 00-.041-.285l-1.5-5.053A1 1 0 0019.5 3zm.5 8V9.198L18.754 5H5.246L4 9.198V11h16zm-7 2H5.006l.033 5.997L13 18.968V13z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </symbol>
+                            </defs>
+                            <g fill="#424750">
+                              <path
+                                fill-rule="evenodd"
+                                d="M19.5 3h-15a1 1 0 00-.959.715l-1.5 5.053A1 1 0 002 9.053V12a1 1 0 001 1h.006l.038 7.006A1 1 0 004.048 21l9.956-.035a1 1 0 00.996-1V13h4v8h2v-8a1 1 0 001-1V9.053a1 1 0 00-.041-.285l-1.5-5.053A1 1 0 0019.5 3zm.5 8V9.198L18.754 5H5.246L4 9.198V11h16zm-7 2H5.006l.033 5.997L13 18.968V13z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                        <div
+                          class="position-absolute"
+                          style="right: 9px; top: 9px; scale: 0.7"
+                        >
+                          <svg
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            style="background: white"
+                          >
+                            <defs>
+                              <symbol
+                                id="verifiedUser"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M20.661 7l-.274 2.623a.347.347 0 00.065.24L22 12l-1.548 2.137a.347.347 0 00-.065.24L20.661 17l-2.41 1.073a.346.346 0 00-.177.176L17 20.661l-2.624-.274a.347.347 0 00-.24.065L12 22l-2.138-1.548a.345.345 0 00-.238-.065l-2.625.274-1.073-2.41a.348.348 0 00-.176-.177L3.339 17l.274-2.624a.349.349 0 00-.065-.24L2 12l1.548-2.137a.349.349 0 00.065-.24L3.339 7l2.41-1.073a.345.345 0 00.177-.176L7 3.339l2.625.274a.35.35 0 00.24-.065L12 2l2.137 1.548a.35.35 0 00.24.065L17 3.34l1.073 2.41a.348.348 0 00.176.177L20.661 7zM7.707 10.292l2.793 2.793 5.793-5.793 1.414 1.414-6.5 6.5a1 1 0 01-1.414 0l-3.5-3.5 1.414-1.414z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </symbol>
+                            </defs>
+                            <g fill="#00A049">
+                              <path
+                                fill-rule="evenodd"
+                                d="M20.661 7l-.274 2.623a.347.347 0 00.065.24L22 12l-1.548 2.137a.347.347 0 00-.065.24L20.661 17l-2.41 1.073a.346.346 0 00-.177.176L17 20.661l-2.624-.274a.347.347 0 00-.24.065L12 22l-2.138-1.548a.345.345 0 00-.238-.065l-2.625.274-1.073-2.41a.348.348 0 00-.176-.177L3.339 17l.274-2.624a.349.349 0 00-.065-.24L2 12l1.548-2.137a.349.349 0 00.065-.24L3.339 7l2.41-1.073a.345.345 0 00.177-.176L7 3.339l2.625.274a.35.35 0 00.24-.065L12 2l2.137 1.548a.35.35 0 00.24.065L17 3.34l1.073 2.41a.348.348 0 00.176.177L20.661 7zM7.707 10.292l2.793 2.793 5.793-5.793 1.414 1.414-6.5 6.5a1 1 0 01-1.414 0l-3.5-3.5 1.414-1.414z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                      <div>
+                        <div class="d-flex flex-column">
+                          <div class="d-flex gap-4">
+                            <p
+                              class="fs-4"
+                              style="color: var(--color-gray-700)"
+                            >
+                              اسمارت تکنولوژی قشم
+                            </p>
+                            <span
+                              class="fs-5"
+                              style="color: var(--color-rating-300)"
+                              >منتخب</span
+                            >
+                          </div>
+                          <div class="d-flex gap-2">
+                            <p
+                              class="fs-5"
+                              style="color: var(--color-gray-500)"
+                            >
+                              عملکرد
+                            </p>
+                            <span
+                              class="fs-5"
+                              style="color: var(--color-rating-300)"
+                              >عالی</span
+                            >
+                          </div>
+                        </div>
+                      </div>
+                    </div></a
+                  >
+                  <div class="d-flex gap-4 border-bottom py-3">
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="guarantee"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              d="M4.725 4.038l7-2a1 1 0 01.55 0l7 2A1 1 0 0120 5v7.938a8 8 0 01-4.03 6.946l-3.474 1.984a1 1 0 01-.992 0L8.03 19.884A8 8 0 014 12.938V5a1 1 0 01.725-.962zM6 5.754v7.184a6 6 0 003.023 5.21l2.977 1.7 2.977-1.7A6 6 0 0018 12.937V5.754L12 4.04 6 5.754zm9 2.539l-3.793 3.793-1.793-1.793L8 11.707l2.5 2.5a1 1 0 001.414 0l4.5-4.5L15 8.293z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#424750">
+                          <path
+                            fill-rule="evenodd"
+                            d="M4.725 4.038l7-2a1 1 0 01.55 0l7 2A1 1 0 0120 5v7.938a8 8 0 01-4.03 6.946l-3.474 1.984a1 1 0 01-.992 0L8.03 19.884A8 8 0 014 12.938V5a1 1 0 01.725-.962zM6 5.754v7.184a6 6 0 003.023 5.21l2.977 1.7 2.977-1.7A6 6 0 0018 12.937V5.754L12 4.04 6 5.754zm9 2.539l-3.793 3.793-1.793-1.793L8 11.707l2.5 2.5a1 1 0 001.414 0l4.5-4.5L15 8.293z"
+                            clip-rule="evenodd"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                    <p class="fs-5" style="color: var(--color-gray-700)">
+                      گارانتی ۱۸ ماهه کاشانه پارس همراه
+                    </p>
+                  </div>
+                  <div
+                    class="d-flex justify-content-between border-bottom py-4"
+                  >
+                    <div class="d-flex flex-column justify-content-between">
+                      <div class="d-flex">
+                        <div
+                          class="d-flex me-4 align-items-center justify-content-center"
+                        >
+                          <svg
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                          >
+                            <defs>
+                              <symbol
+                                id="productAvailable"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M7 19H6a1 1 0 01-1-1V6a1 1 0 011-1h2v7h8V5h2a1 1 0 011 1v12a1 1 0 01-1 1h-1v2h1a3 3 0 003-3V6a3 3 0 00-3-3H6a3 3 0 00-3 3v12a3 3 0 003 3h1v-2zm3-9V5h4v5h-4zm-.293 7.793l1.755 1.755 3.795-4.217 1.486 1.338-4.5 5a1 1 0 01-1.45.038l-2.5-2.5 1.414-1.414z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </symbol>
+                            </defs>
+                            <g fill="#19BFD3">
+                              <path
+                                fill-rule="evenodd"
+                                d="M7 19H6a1 1 0 01-1-1V6a1 1 0 011-1h2v7h8V5h2a1 1 0 011 1v12a1 1 0 01-1 1h-1v2h1a3 3 0 003-3V6a3 3 0 00-3-3H6a3 3 0 00-3 3v12a3 3 0 003 3h1v-2zm3-9V5h4v5h-4zm-.293 7.793l1.755 1.755 3.795-4.217 1.486 1.338-4.5 5a1 1 0 01-1.45.038l-2.5-2.5 1.414-1.414z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                        <p
+                          class="fs-4 fw-bold mb-0"
+                          style="color: var(--color-gray-700)"
+                        >
+                          موجود در انبار دیجی‌کالا
+                        </p>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <div class="position-relative" style="width: 24px">
+                          <div
+                            class="d-flex align-items-center justify-content-center"
+                          >
+                            <svg
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              style="scale: 0.2"
+                            >
+                              <defs>
+                                <symbol
+                                  id="variationColor"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 20 20"
+                                >
+                                  <path
+                                    d="M0 10C0 4.477 4.477 0 10 0s10 4.477 10 10-4.477 10-10 10S0 15.523 0 10z"
+                                  ></path>
+                                  <path
+                                    stroke="#030A16"
+                                    stroke-opacity="0.1"
+                                    d="M.5 10a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0z"
+                                  ></path>
+                                </symbol>
+                              </defs>
+                              <g fill="#19BFD3">
+                                <path
+                                  d="M0 10C0 4.477 4.477 0 10 0s10 4.477 10 10-4.477 10-10 10S0 15.523 0 10z"
+                                ></path>
+                                <path
+                                  stroke="#030A16"
+                                  stroke-opacity="0.1"
+                                  d="M.5 10a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0z"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <span class="connecter-line"></span>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 ms-3">
+                          <div>
+                            <svg
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              style="scale: 0.7"
+                            >
+                              <defs>
+                                <symbol
+                                  id="deliveryExpress"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M14.17 19H8.83a3.001 3.001 0 01-5.66 0H2a1 1 0 01-1-1v-7.333C1 8.097 3.033 6 5.556 6H9V5a1 1 0 011-1h12a1 1 0 011 1v13a1 1 0 01-1 1h-2.17a3.001 3.001 0 01-5.66 0zm0-2H11V6h10v11h-1.17a3.001 3.001 0 00-5.66 0zM9 17h-.17a3.001 3.001 0 00-5.66 0H3v-3h5v-2H3v-1.333C3 9.187 4.151 8 5.556 8H9v9zm-2 1a1 1 0 11-2 0 1 1 0 012 0zm10 1a1 1 0 100-2 1 1 0 000 2z"
+                                    clip-rule="evenodd"
+                                  ></path>
+                                </symbol>
+                              </defs>
+                              <g fill="#E6123D">
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M14.17 19H8.83a3.001 3.001 0 01-5.66 0H2a1 1 0 01-1-1v-7.333C1 8.097 3.033 6 5.556 6H9V5a1 1 0 011-1h12a1 1 0 011 1v13a1 1 0 01-1 1h-2.17a3.001 3.001 0 01-5.66 0zm0-2H11V6h10v11h-1.17a3.001 3.001 0 00-5.66 0zM9 17h-.17a3.001 3.001 0 00-5.66 0H3v-3h5v-2H3v-1.333C3 9.187 4.151 8 5.556 8H9v9zm-2 1a1 1 0 11-2 0 1 1 0 012 0zm10 1a1 1 0 100-2 1 1 0 000 2z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <p class="fs-5" style="color: var(--color-gray-500)">
+                            ارسال دیجی‌کالا
+                          </p>
+                        </div>
+                      </div>
+                      <div class="d-flex align-items-center">
+                        <div class="position-relative" style="width: 24px">
+                          <div
+                            class="d-flex align-items-center justify-content-center"
+                          >
+                            <svg
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="20"
+                              height="20"
+                              style="scale: 0.2"
+                            >
+                              <defs>
+                                <symbol
+                                  id="variationColor"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 20 20"
+                                >
+                                  <path
+                                    d="M0 10C0 4.477 4.477 0 10 0s10 4.477 10 10-4.477 10-10 10S0 15.523 0 10z"
+                                  ></path>
+                                  <path
+                                    stroke="#030A16"
+                                    stroke-opacity="0.1"
+                                    d="M.5 10a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0z"
+                                  ></path>
+                                </symbol>
+                              </defs>
+                              <g fill="#19BFD3">
+                                <path
+                                  d="M0 10C0 4.477 4.477 0 10 0s10 4.477 10 10-4.477 10-10 10S0 15.523 0 10z"
+                                ></path>
+                                <path
+                                  stroke="#030A16"
+                                  stroke-opacity="0.1"
+                                  d="M.5 10a9.5 9.5 0 1119 0 9.5 9.5 0 01-19 0z"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <span class="connecter-line"></span>
+                        </div>
+                        <div class="d-flex align-items-center gap-2 ms-3">
+                          <div>
+                            <svg
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="24"
+                              height="24"
+                              style="scale: 0.7"
+                            >
+                              <defs>
+                                <symbol
+                                  id="deliveryToday"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path d="M22 5h-2v2h2V5z"></path>
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M15 15h6v-2h-6a1 1 0 110-2h5V9h-6a1 1 0 110-2h4V5H7a7 7 0 000 14h11v-2h-3a1 1 0 110-2zm-3-3a5 5 0 10-10 0 5 5 0 0010 0z"
+                                    clip-rule="evenodd"
+                                  ></path>
+                                  <path
+                                    d="M21.5 9H24v2h-2.5V9zM21.5 17H19v2h2.5v-2z"
+                                  ></path>
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M7 12V9.75H5.5v3c0 .414.336.75.75.75h3V12H7z"
+                                    clip-rule="evenodd"
+                                  ></path>
+                                </symbol>
+                              </defs>
+                              <g fill="#1028FF">
+                                <path d="M22 5h-2v2h2V5z"></path>
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M15 15h6v-2h-6a1 1 0 110-2h5V9h-6a1 1 0 110-2h4V5H7a7 7 0 000 14h11v-2h-3a1 1 0 110-2zm-3-3a5 5 0 10-10 0 5 5 0 0010 0z"
+                                  clip-rule="evenodd"
+                                ></path>
+                                <path
+                                  d="M21.5 9H24v2h-2.5V9zM21.5 17H19v2h2.5v-2z"
+                                ></path>
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M7 12V9.75H5.5v3c0 .414.336.75.75.75h3V12H7z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <p class="fs-5" style="color: var(--color-gray-500)">
+                            ارسال امروز (فعلا در شهر تهران و کرج)
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="chevronLeft"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#A1A3A8">
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div>
+                  </div>
+                  <div class="d-flex align-items-center gap-4 py-3">
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 18 18"
+                        fill="none"
+                        style="scale: 1.3"
+                      >
+                        <path
+                          d="M16.5 9C16.5 13.1425 13.1425 16.5 9 16.5C4.85748 16.5 1.5 13.1425 1.5 9C1.5 4.85748 4.85748 1.5 9 1.5C13.1425 1.5 16.5 4.85748 16.5 9Z"
+                          fill="#FFDF4E"
+                        ></path>
+                        <path
+                          d="M6.30327 16.0007C5.74308 15.7848 5.21534 15.5036 4.72939 15.1664L15.1368 4.68697C15.48 5.17449 15.7666 5.70476 15.9871 6.26823L6.30327 16.0007Z"
+                          fill="#FFF077"
+                        ></path>
+                        <path
+                          d="M14.0449 3.44998L3.47817 14.0757C3.08895 13.6525 2.74777 13.1844 2.46326 12.6801L12.635 2.43799C13.1443 2.72068 13.6172 3.06094 14.0449 3.44998Z"
+                          fill="#FFF077"
+                        ></path>
+                        <path
+                          d="M13.2426 13.2426C10.8991 15.5862 7.10091 15.5862 4.75736 13.2426C2.41381 10.8991 2.41381 7.10091 4.75736 4.75736C7.10091 2.41381 10.8991 2.41381 13.2426 4.75736C15.5862 7.10091 15.5862 10.8991 13.2426 13.2426Z"
+                          fill="#FFCB05"
+                        ></path>
+                        <path
+                          d="M4.75736 13.2427C7.10091 15.5862 10.8991 15.5862 13.2426 13.2427C15.5862 10.8991 15.5862 7.10094 13.2426 4.75739L4.75736 13.2427Z"
+                          fill="#FCA400"
+                        ></path>
+                        <path
+                          d="M10.1916 10.1495L9.76402 10.5701C9.73598 10.5981 9.72196 10.6332 9.72897 10.6752L9.8271 11.264C9.84112 11.3622 9.74299 11.4323 9.65888 11.3902L9.12617 11.1098C9.09112 11.0888 9.04906 11.0888 9.02103 11.1098L8.48832 11.3902C8.4042 11.4323 8.30607 11.3622 8.32009 11.264L8.41822 10.6752C8.42523 10.6402 8.41121 10.5981 8.38318 10.5701L7.95561 10.1495C7.88551 10.0794 7.92757 9.9673 8.01869 9.95328L8.61448 9.86917C8.64953 9.86216 8.68458 9.84113 8.70561 9.80608L8.97196 9.26637C9.01402 9.18225 9.14019 9.18225 9.18224 9.26637L9.4486 9.80608C9.46262 9.84113 9.49766 9.86216 9.53972 9.86917L10.1285 9.95328C10.2196 9.9673 10.2617 10.0865 10.1916 10.1495ZM12.715 7.80842L12.0701 7.16356C11.965 7.05842 11.7897 7.06543 11.6916 7.17758C11.0537 7.91356 10.1075 8.36917 9.06308 8.36917C8.01869 8.36917 7.08645 7.91356 6.4486 7.1916C6.35047 7.07945 6.17523 7.07244 6.07009 7.17758L5.43224 7.81543C5.33411 7.91356 5.3271 8.06777 5.42523 8.17291C5.89486 8.68459 6.47663 9.09814 7.12149 9.37851V12.007C7.12149 12.3785 7.4229 12.6799 7.79439 12.6799H10.3528C10.7243 12.6799 11.0257 12.3785 11.0257 12.007V9.37851C11.6776 9.09814 12.2523 8.68459 12.722 8.17291C12.8201 8.06076 12.8131 7.90655 12.715 7.80842Z"
+                          fill="#FFF077"
+                        ></path>
+                        <path
+                          d="M9.0771 7.17758C9.60981 7.17758 10.0374 6.75001 10.0374 6.2173C10.0374 5.68459 9.60981 5.25702 9.0771 5.25702C8.54439 5.25702 8.11682 5.6916 8.11682 6.2173C8.10981 6.75001 8.54439 7.17758 9.0771 7.17758Z"
+                          fill="#FFF077"
+                        ></path>
+                      </svg>
+                    </div>
+                    <div class="d-flex align-items-center gap-2">
+                      <p class="fs-5" style="color: var(--color-gray-700)">
+                        ۱۵۰ امتیاز دیجی‌کلاب
+                      </p>
+                      <div>
+                        <svg
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="scale: 0.7"
+                          width="24"
+                          height="24"
+                        >
+                          <defs>
+                            <symbol
+                              id="infoOutline"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm18 0a8 8 0 11-16 0 8 8 0 0116 0zm-10-2h3v7h-2v-5h-1v-2zm3-2a1 1 0 10-2 0 1 1 0 002 0z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </symbol>
+                          </defs>
+                          <g fill="#a1a3a8">
+                            <path
+                              fill-rule="evenodd"
+                              d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm18 0a8 8 0 11-16 0 8 8 0 0116 0zm-10-2h3v7h-2v-5h-1v-2zm3-2a1 1 0 10-2 0 1 1 0 002 0z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-container="price">
+                    <div
+                      class="d-flex flex-column gap-2"
+                      style="margin: 20px 0"
+                    >
+                      <div
+                        class="d-flex align-items-center justify-content-between p-2"
+                        style="background: #f57f171a"
+                      >
+                        <div class="d-flex align-items-center gap-2">
+                          <div class="mb-1">
+                            <svg
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              xmlns="http://www.w3.org/2000/svg"
+                              style="scale: 0.7"
+                              width="24"
+                              height="24"
+                            >
+                              <defs>
+                                <symbol
+                                  id="infoOutline"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm18 0a8 8 0 11-16 0 8 8 0 0116 0zm-10-2h3v7h-2v-5h-1v-2zm3-2a1 1 0 10-2 0 1 1 0 002 0z"
+                                    clip-rule="evenodd"
+                                  ></path>
+                                </symbol>
+                              </defs>
+                              <g fill="#f9a825">
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm18 0a8 8 0 11-16 0 8 8 0 0116 0zm-10-2h3v7h-2v-5h-1v-2zm3-2a1 1 0 10-2 0 1 1 0 002 0z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div>
+                            <p
+                              style="
+                                font-size: 11px;
+                                font-weight: 600;
+                                color: var(--color-gray-700);
+                              "
+                            >
+                              با قیمت 0 تومان از فروشندگان دیگر
+                            </p>
+                          </div>
+                        </div>
+                        <div>
+                          <svg
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            style="scale: 0.8"
+                          >
+                            <defs>
+                              <symbol
+                                id="chevronLeft"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                              >
+                                <path
+                                  d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                                ></path>
+                              </symbol>
+                            </defs>
+                            <g fill="#A1A3A8">
+                              <path
+                                d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                      <div
+                        class="d-flex align-items-center justify-content-between p-2 rounded-4"
+                        style="background: rgba(0, 64, 255, 8%)"
+                      >
+                        <div class="d-flex align-items-center gap-3">
+                          <div class="mb-1">
+                            <svg
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="18"
+                              height="18"
+                            >
+                              <defs>
+                                <symbol
+                                  id="insurance"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 14 16"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M6.999.667c.368 0 .666.298.666.666v.021c3.353.324 6 3.065 6 6.438 0 .146-.005.29-.014.433-.047.687-.791.9-1.237.62-.306-.192-.73-.321-1.215-.321-.495 0-.926.135-1.233.332a.81.81 0 01-.998-.095 2.759 2.759 0 00-1.303-.688v5.26a2 2 0 01-4 0v-.667a.667.667 0 111.334 0v.667a.667.667 0 101.333 0v-5.26a2.759 2.759 0 00-1.302.688.81.81 0 01-.999.095c-.307-.197-.737-.332-1.232-.332-.486 0-.91.13-1.215.321-.446.28-1.19.067-1.237-.62a6.365 6.365 0 01-.015-.433c0-3.373 2.648-6.114 6-6.438v-.02c0-.369.299-.667.667-.667zM1.685 7.352a3.863 3.863 0 011.114-.162c.328 0 .647.04.948.116a10.535 10.535 0 011.733-4.44c-2.074.592-3.607 2.363-3.795 4.486zm6.832-4.486a10.534 10.534 0 011.734 4.44c.3-.076.62-.116.948-.116.388 0 .765.056 1.114.162-.189-2.123-1.722-3.894-3.796-4.486zm.345 4.221A9.202 9.202 0 007 3.056a9.202 9.202 0 00-1.864 4.031c.56-.27 1.195-.42 1.864-.42s1.304.15 1.863.42z"
+                                    clip-rule="evenodd"
+                                  ></path>
+                                </symbol>
+                              </defs>
+                              <g fill="#0040FF">
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M6.999.667c.368 0 .666.298.666.666v.021c3.353.324 6 3.065 6 6.438 0 .146-.005.29-.014.433-.047.687-.791.9-1.237.62-.306-.192-.73-.321-1.215-.321-.495 0-.926.135-1.233.332a.81.81 0 01-.998-.095 2.759 2.759 0 00-1.303-.688v5.26a2 2 0 01-4 0v-.667a.667.667 0 111.334 0v.667a.667.667 0 101.333 0v-5.26a2.759 2.759 0 00-1.302.688.81.81 0 01-.999.095c-.307-.197-.737-.332-1.232-.332-.486 0-.91.13-1.215.321-.446.28-1.19.067-1.237-.62a6.365 6.365 0 01-.015-.433c0-3.373 2.648-6.114 6-6.438v-.02c0-.369.299-.667.667-.667zM1.685 7.352a3.863 3.863 0 011.114-.162c.328 0 .647.04.948.116a10.535 10.535 0 011.733-4.44c-2.074.592-3.607 2.363-3.795 4.486zm6.832-4.486a10.534 10.534 0 011.734 4.44c.3-.076.62-.116.948-.116.388 0 .765.056 1.114.162-.189-2.123-1.722-3.894-3.796-4.486zm.345 4.221A9.202 9.202 0 007 3.056a9.202 9.202 0 00-1.864 4.031c.56-.27 1.195-.42 1.864-.42s1.304.15 1.863.42z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                          <div>
+                            <p
+                              style="
+                                font-size: 11px;
+                                font-weight: 600;
+                                color: var(--color-gray-700);
+                              "
+                            >
+                              بیمه تجهیزات دیجیتال - بیمه پارسیان
+                            </p>
+                          </div>
+                        </div>
+                        <div class="d-flex align-items-center gap-1">
+                          <p
+                            style="
+                              font-size: 11px;
+                              font-weight: 600;
+                              color: var(--color-gray-700);
+                            "
+                          >
+                            ۸۶۵,۴۶۰
+                          </p>
+                          <div class="pb-2">
+                            <svg
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              xmlns="http://www.w3.org/2000/svg"
+                              width="14"
+                              height="14"
+                              style="scale: 1.2"
+                            >
+                              <defs>
+                                <symbol
+                                  id="toman"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 0 14 14"
+                                >
+                                  <path
+                                    fill-rule="evenodd"
+                                    d="M3.057 1.742L3.821 1l.78.75-.776.741-.768-.749zm3.23 2.48c0 .622-.16 1.111-.478 1.467-.201.221-.462.39-.783.505a3.251 3.251 0 01-1.083.163h-.555c-.421 0-.801-.074-1.139-.223a2.045 2.045 0 01-.9-.738A2.238 2.238 0 011 4.148c0-.059.001-.117.004-.176.03-.55.204-1.158.525-1.827l1.095.484c-.257.532-.397 1-.419 1.403-.002.04-.004.08-.004.12 0 .252.055.458.166.618a.887.887 0 00.5.354c.085.028.178.048.278.06.079.01.16.014.243.014h.555c.458 0 .769-.081.933-.244.14-.139.21-.383.21-.731V2.02h1.2v2.202zm5.433 3.184l-.72-.7.709-.706.735.707-.724.7zm-2.856.308c.542 0 .973.19 1.293.569.297.346.445.777.445 1.293v.364h.18v-.004h.41c.221 0 .377-.028.467-.084.093-.055.14-.14.14-.258v-.069c.004-.243.017-1.044 0-1.115L13 8.05v1.574a1.4 1.4 0 01-.287.863c-.306.405-.804.607-1.495.607h-.627c-.061.733-.434 1.257-1.117 1.573-.267.122-.58.21-.937.265a5.845 5.845 0 01-.914.067v-1.159c.612 0 1.072-.082 1.38-.247.25-.132.376-.298.376-.499h-.515c-.436 0-.807-.113-1.113-.339-.367-.273-.55-.667-.55-1.18 0-.488.122-.901.367-1.24.296-.415.728-.622 1.296-.622zm.533 2.226v-.364c0-.217-.048-.389-.143-.516a.464.464 0 00-.39-.187.478.478 0 00-.396.187.705.705 0 00-.136.449.65.65 0 00.003.067c.008.125.066.22.177.283.093.054.21.08.352.08h.533zM9.5 6.707l.72.7.724-.7L10.209 6l-.709.707zm-6.694 4.888h.03c.433-.01.745-.106.937-.29.024.012.065.035.12.068l.074.039.081.042c.135.073.261.133.379.18.345.146.67.22.977.22a1.216 1.216 0 00.87-.34c.3-.285.449-.714.449-1.286a2.19 2.19 0 00-.335-1.145c-.299-.457-.732-.685-1.3-.685-.502 0-.916.192-1.242.575-.113.132-.21.284-.294.456-.032.062-.06.125-.084.191a.504.504 0 00-.03.078 1.67 1.67 0 00-.022.06c-.103.309-.171.485-.205.53-.072.09-.214.14-.427.147-.123-.005-.209-.03-.256-.076-.057-.054-.085-.153-.085-.297V7l-1.201-.5v3.562c0 .261.048.496.143.703.071.158.168.296.29.413.123.118.266.211.43.28.198.084.42.13.665.136v.001h.036zm2.752-1.014a.778.778 0 00.044-.353.868.868 0 00-.165-.47c-.1-.134-.217-.201-.35-.201-.18 0-.33.103-.447.31-.042.071-.08.158-.114.262a2.434 2.434 0 00-.04.12l-.015.053-.015.046c.142.118.323.216.544.293.18.062.325.092.433.092.044 0 .086-.05.125-.152z"
+                                    clip-rule="evenodd"
+                                  ></path>
+                                </symbol>
+                              </defs>
+                              <g fill="#424750">
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M3.057 1.742L3.821 1l.78.75-.776.741-.768-.749zm3.23 2.48c0 .622-.16 1.111-.478 1.467-.201.221-.462.39-.783.505a3.251 3.251 0 01-1.083.163h-.555c-.421 0-.801-.074-1.139-.223a2.045 2.045 0 01-.9-.738A2.238 2.238 0 011 4.148c0-.059.001-.117.004-.176.03-.55.204-1.158.525-1.827l1.095.484c-.257.532-.397 1-.419 1.403-.002.04-.004.08-.004.12 0 .252.055.458.166.618a.887.887 0 00.5.354c.085.028.178.048.278.06.079.01.16.014.243.014h.555c.458 0 .769-.081.933-.244.14-.139.21-.383.21-.731V2.02h1.2v2.202zm5.433 3.184l-.72-.7.709-.706.735.707-.724.7zm-2.856.308c.542 0 .973.19 1.293.569.297.346.445.777.445 1.293v.364h.18v-.004h.41c.221 0 .377-.028.467-.084.093-.055.14-.14.14-.258v-.069c.004-.243.017-1.044 0-1.115L13 8.05v1.574a1.4 1.4 0 01-.287.863c-.306.405-.804.607-1.495.607h-.627c-.061.733-.434 1.257-1.117 1.573-.267.122-.58.21-.937.265a5.845 5.845 0 01-.914.067v-1.159c.612 0 1.072-.082 1.38-.247.25-.132.376-.298.376-.499h-.515c-.436 0-.807-.113-1.113-.339-.367-.273-.55-.667-.55-1.18 0-.488.122-.901.367-1.24.296-.415.728-.622 1.296-.622zm.533 2.226v-.364c0-.217-.048-.389-.143-.516a.464.464 0 00-.39-.187.478.478 0 00-.396.187.705.705 0 00-.136.449.65.65 0 00.003.067c.008.125.066.22.177.283.093.054.21.08.352.08h.533zM9.5 6.707l.72.7.724-.7L10.209 6l-.709.707zm-6.694 4.888h.03c.433-.01.745-.106.937-.29.024.012.065.035.12.068l.074.039.081.042c.135.073.261.133.379.18.345.146.67.22.977.22a1.216 1.216 0 00.87-.34c.3-.285.449-.714.449-1.286a2.19 2.19 0 00-.335-1.145c-.299-.457-.732-.685-1.3-.685-.502 0-.916.192-1.242.575-.113.132-.21.284-.294.456-.032.062-.06.125-.084.191a.504.504 0 00-.03.078 1.67 1.67 0 00-.022.06c-.103.309-.171.485-.205.53-.072.09-.214.14-.427.147-.123-.005-.209-.03-.256-.076-.057-.054-.085-.153-.085-.297V7l-1.201-.5v3.562c0 .261.048.496.143.703.071.158.168.296.29.413.123.118.266.211.43.28.198.084.42.13.665.136v.001h.036zm2.752-1.014a.778.778 0 00.044-.353.868.868 0 00-.165-.47c-.1-.134-.217-.201-.35-.201-.18 0-.33.103-.447.31-.042.071-.08.158-.114.262a2.434 2.434 0 00-.04.12l-.015.053-.015.046c.142.118.323.216.544.293.18.062.325.092.433.092.044 0 .086-.05.125-.152z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </g>
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="d-flex align-items-center justify-content-between"
+                    >
+                      <div style="margin-right: -4px">
+                        <svg
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="scale: 0.7"
+                          width="24"
+                          height="24"
+                        >
+                          <defs>
+                            <symbol
+                              id="infoOutline"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm18 0a8 8 0 11-16 0 8 8 0 0116 0zm-10-2h3v7h-2v-5h-1v-2zm3-2a1 1 0 10-2 0 1 1 0 002 0z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </symbol>
+                          </defs>
+                          <g fill="#a1a3a8">
+                            <path
+                              fill-rule="evenodd"
+                              d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm18 0a8 8 0 11-16 0 8 8 0 0116 0zm-10-2h3v7h-2v-5h-1v-2zm3-2a1 1 0 10-2 0 1 1 0 002 0z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <div class="d-flex align-items-center gap-2">
+                        <p class="fs-3 fw-bold">۳۹,۸۹۰,۰۰۰</p>
+                        <div>
+                          <svg
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="14"
+                            height="14"
+                          >
+                            <defs>
+                              <symbol
+                                id="toman"
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 14 14"
+                              >
+                                <path
+                                  fill-rule="evenodd"
+                                  d="M3.057 1.742L3.821 1l.78.75-.776.741-.768-.749zm3.23 2.48c0 .622-.16 1.111-.478 1.467-.201.221-.462.39-.783.505a3.251 3.251 0 01-1.083.163h-.555c-.421 0-.801-.074-1.139-.223a2.045 2.045 0 01-.9-.738A2.238 2.238 0 011 4.148c0-.059.001-.117.004-.176.03-.55.204-1.158.525-1.827l1.095.484c-.257.532-.397 1-.419 1.403-.002.04-.004.08-.004.12 0 .252.055.458.166.618a.887.887 0 00.5.354c.085.028.178.048.278.06.079.01.16.014.243.014h.555c.458 0 .769-.081.933-.244.14-.139.21-.383.21-.731V2.02h1.2v2.202zm5.433 3.184l-.72-.7.709-.706.735.707-.724.7zm-2.856.308c.542 0 .973.19 1.293.569.297.346.445.777.445 1.293v.364h.18v-.004h.41c.221 0 .377-.028.467-.084.093-.055.14-.14.14-.258v-.069c.004-.243.017-1.044 0-1.115L13 8.05v1.574a1.4 1.4 0 01-.287.863c-.306.405-.804.607-1.495.607h-.627c-.061.733-.434 1.257-1.117 1.573-.267.122-.58.21-.937.265a5.845 5.845 0 01-.914.067v-1.159c.612 0 1.072-.082 1.38-.247.25-.132.376-.298.376-.499h-.515c-.436 0-.807-.113-1.113-.339-.367-.273-.55-.667-.55-1.18 0-.488.122-.901.367-1.24.296-.415.728-.622 1.296-.622zm.533 2.226v-.364c0-.217-.048-.389-.143-.516a.464.464 0 00-.39-.187.478.478 0 00-.396.187.705.705 0 00-.136.449.65.65 0 00.003.067c.008.125.066.22.177.283.093.054.21.08.352.08h.533zM9.5 6.707l.72.7.724-.7L10.209 6l-.709.707zm-6.694 4.888h.03c.433-.01.745-.106.937-.29.024.012.065.035.12.068l.074.039.081.042c.135.073.261.133.379.18.345.146.67.22.977.22a1.216 1.216 0 00.87-.34c.3-.285.449-.714.449-1.286a2.19 2.19 0 00-.335-1.145c-.299-.457-.732-.685-1.3-.685-.502 0-.916.192-1.242.575-.113.132-.21.284-.294.456-.032.062-.06.125-.084.191a.504.504 0 00-.03.078 1.67 1.67 0 00-.022.06c-.103.309-.171.485-.205.53-.072.09-.214.14-.427.147-.123-.005-.209-.03-.256-.076-.057-.054-.085-.153-.085-.297V7l-1.201-.5v3.562c0 .261.048.496.143.703.071.158.168.296.29.413.123.118.266.211.43.28.198.084.42.13.665.136v.001h.036zm2.752-1.014a.778.778 0 00.044-.353.868.868 0 00-.165-.47c-.1-.134-.217-.201-.35-.201-.18 0-.33.103-.447.31-.042.071-.08.158-.114.262a2.434 2.434 0 00-.04.12l-.015.053-.015.046c.142.118.323.216.544.293.18.062.325.092.433.092.044 0 .086-.05.125-.152z"
+                                  clip-rule="evenodd"
+                                ></path>
+                              </symbol>
+                            </defs>
+                            <g fill="#424750">
+                              <path
+                                fill-rule="evenodd"
+                                d="M3.057 1.742L3.821 1l.78.75-.776.741-.768-.749zm3.23 2.48c0 .622-.16 1.111-.478 1.467-.201.221-.462.39-.783.505a3.251 3.251 0 01-1.083.163h-.555c-.421 0-.801-.074-1.139-.223a2.045 2.045 0 01-.9-.738A2.238 2.238 0 011 4.148c0-.059.001-.117.004-.176.03-.55.204-1.158.525-1.827l1.095.484c-.257.532-.397 1-.419 1.403-.002.04-.004.08-.004.12 0 .252.055.458.166.618a.887.887 0 00.5.354c.085.028.178.048.278.06.079.01.16.014.243.014h.555c.458 0 .769-.081.933-.244.14-.139.21-.383.21-.731V2.02h1.2v2.202zm5.433 3.184l-.72-.7.709-.706.735.707-.724.7zm-2.856.308c.542 0 .973.19 1.293.569.297.346.445.777.445 1.293v.364h.18v-.004h.41c.221 0 .377-.028.467-.084.093-.055.14-.14.14-.258v-.069c.004-.243.017-1.044 0-1.115L13 8.05v1.574a1.4 1.4 0 01-.287.863c-.306.405-.804.607-1.495.607h-.627c-.061.733-.434 1.257-1.117 1.573-.267.122-.58.21-.937.265a5.845 5.845 0 01-.914.067v-1.159c.612 0 1.072-.082 1.38-.247.25-.132.376-.298.376-.499h-.515c-.436 0-.807-.113-1.113-.339-.367-.273-.55-.667-.55-1.18 0-.488.122-.901.367-1.24.296-.415.728-.622 1.296-.622zm.533 2.226v-.364c0-.217-.048-.389-.143-.516a.464.464 0 00-.39-.187.478.478 0 00-.396.187.705.705 0 00-.136.449.65.65 0 00.003.067c.008.125.066.22.177.283.093.054.21.08.352.08h.533zM9.5 6.707l.72.7.724-.7L10.209 6l-.709.707zm-6.694 4.888h.03c.433-.01.745-.106.937-.29.024.012.065.035.12.068l.074.039.081.042c.135.073.261.133.379.18.345.146.67.22.977.22a1.216 1.216 0 00.87-.34c.3-.285.449-.714.449-1.286a2.19 2.19 0 00-.335-1.145c-.299-.457-.732-.685-1.3-.685-.502 0-.916.192-1.242.575-.113.132-.21.284-.294.456-.032.062-.06.125-.084.191a.504.504 0 00-.03.078 1.67 1.67 0 00-.022.06c-.103.309-.171.485-.205.53-.072.09-.214.14-.427.147-.123-.005-.209-.03-.256-.076-.057-.054-.085-.153-.085-.297V7l-1.201-.5v3.562c0 .261.048.496.143.703.071.158.168.296.29.413.123.118.266.211.43.28.198.084.42.13.665.136v.001h.036zm2.752-1.014a.778.778 0 00.044-.353.868.868 0 00-.165-.47c-.1-.134-.217-.201-.35-.201-.18 0-.33.103-.447.31-.042.071-.08.158-.114.262a2.434 2.434 0 00-.04.12l-.015.053-.015.046c.142.118.323.216.544.293.18.062.325.092.433.092.044 0 .086-.05.125-.152z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </g>
+                          </svg>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <p
+                        style="
+                          font-size: 12px;
+                          font-weight: 600;
+                          color: var(--color-primary-700);
+                        "
+                      >
+                        تنها <span>۳</span> عدد در انبار دیجی‌کالا باقی مانده
+                      </p>
+                    </div>
+                    <div>
+                      <button
+                        class="w-100 text-white rounded-4 p-2 mt-3"
+                        style="background: var(--color-button-primary)"
+                      >
+                        افزودن به سبد
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <a href="#" data-container="price-control"
+                  ><div
+                    class="d-flex align-items-center justify-content-between py-2 px-4 border rounded-3"
+                  >
+                    <div class="d-flex align-items-center gap-2">
+                      <div class="mb-1">
+                        <svg
+                          xmlns:xlink="http://www.w3.org/1999/xlink"
+                          xmlns="http://www.w3.org/2000/svg"
+                          style="scale: 0.7"
+                          width="24"
+                          height="24"
+                        >
+                          <defs>
+                            <symbol
+                              id="infoOutline"
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 24 24"
+                            >
+                              <path
+                                fill-rule="evenodd"
+                                d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm18 0a8 8 0 11-16 0 8 8 0 0116 0zm-10-2h3v7h-2v-5h-1v-2zm3-2a1 1 0 10-2 0 1 1 0 002 0z"
+                                clip-rule="evenodd"
+                              ></path>
+                            </symbol>
+                          </defs>
+                          <g fill="#a1a3a8">
+                            <path
+                              fill-rule="evenodd"
+                              d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm18 0a8 8 0 11-16 0 8 8 0 0116 0zm-10-2h3v7h-2v-5h-1v-2zm3-2a1 1 0 10-2 0 1 1 0 002 0z"
+                              clip-rule="evenodd"
+                            ></path>
+                          </g>
+                        </svg>
+                      </div>
+                      <div>
+                        <p
+                          style="font-size: 12px; color: var(--color-gray-700)"
+                        >
+                          فرایند قیمت گذاری و نظارت بر قیمت
+                        </p>
+                      </div>
+                    </div>
+                    <div>
+                      <svg
+                        xmlns:xlink="http://www.w3.org/1999/xlink"
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                      >
+                        <defs>
+                          <symbol
+                            id="chevronLeft"
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                          >
+                            <path
+                              d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                            ></path>
+                          </symbol>
+                        </defs>
+                        <g fill="#A1A3A8">
+                          <path
+                            d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                          ></path>
+                        </g>
+                      </svg>
+                    </div></div
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="border-top py-4" data-container="footer">
+          <ul class="d-flex justify-content-around gap-3 w-100 overflow-x-auto">
+            <li>
+              <a
+                class="d-flex align-items-center column-gap-4"
+                href="#"
+                data-container="deliver"
+                ><di
+                  ><img
+                    src="./img/product-details/امکان تحویل اکسپرس.svg"
+                    width="50px"
+                /></di>
+                <p>امکان تحویل اکسپرس</p></a
+              >
+            </li>
+            <li>
+              <a
+                class="d-flex align-items-center column-gap-4"
+                href="#"
+                data-container="deliver"
+                ><di
+                  ><img
+                    src="./img/product-details/۲۴ ساعته، ۷ روز هفته.svg"
+                    width="50px"
+                /></di>
+                <p>24 ساعته، هفت روز هفته</p></a
+              >
+            </li>
+            <li>
+              <a
+                class="d-flex align-items-center column-gap-4"
+                href="#"
+                data-container="deliver"
+                ><di
+                  ><img
+                    src="./img/product-details/امکان پرداخت در محل.svg"
+                    width="50px"
+                /></di>
+                <p>امکان پرداخت در محل</p></a
+              >
+            </li>
+            <li>
+              <a
+                class="d-flex align-items-center column-gap-4"
+                href="#"
+                data-container="deliver"
+                ><di
+                  ><img
+                    src="./img/product-details/هفت روز ضمانت بازگشت کالا.svg"
+                    width="50px"
+                /></di>
+                <p>هفت روز ضمانت بازگشت کالا</p></a
+              >
+            </li>
+            <li>
+              <a
+                class="d-flex align-items-center column-gap-4"
+                href="#"
+                data-container="deliver"
+                ><di
+                  ><img
+                    src="./img/product-details/ضمانت اصل بودن کالا.svg"
+                    width="50px"
+                /></di>
+                <p>ضمانت اصل بودن کالا</p></a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="w-100 position-fixed bg-white border-top shadow"
+        style="
+          bottom: 0;
+          border-color: rgba(0, 0, 0, 0.2) !important;
+          z-index: 200;
+        "
+        data-screen="responsive"
+      >
+        <div
+          class="d-flex align-items-center justify-content-between p-2"
+          style="background: #f57f171a"
+        >
+          <div class="d-flex align-items-center gap-2">
+            <div class="mb-1">
+              <svg
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                xmlns="http://www.w3.org/2000/svg"
+                style="scale: 0.7"
+                width="24"
+                height="24"
+              >
+                <defs>
+                  <symbol
+                    id="infoOutline"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm18 0a8 8 0 11-16 0 8 8 0 0116 0zm-10-2h3v7h-2v-5h-1v-2zm3-2a1 1 0 10-2 0 1 1 0 002 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </symbol>
+                </defs>
+                <g fill="#f9a825">
+                  <path
+                    fill-rule="evenodd"
+                    d="M2 12c0 5.523 4.477 10 10 10s10-4.477 10-10S17.523 2 12 2 2 6.477 2 12zm18 0a8 8 0 11-16 0 8 8 0 0116 0zm-10-2h3v7h-2v-5h-1v-2zm3-2a1 1 0 10-2 0 1 1 0 002 0z"
+                    clip-rule="evenodd"
+                  ></path>
+                </g>
+              </svg>
+            </div>
+            <div>
+              <p
+                style="
+                  font-size: 11px;
+                  font-weight: 600;
+                  color: var(--color-gray-700);
+                "
+              >
+                با قیمت 0 تومان از فروشندگان دیگر
+              </p>
+            </div>
+          </div>
+          <div>
+            <svg
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              style="scale: 0.8"
+            >
+              <defs>
+                <symbol
+                  id="chevronLeft"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                  ></path>
+                </symbol>
+              </defs>
+              <g fill="#A1A3A8">
+                <path
+                  d="M11.414 12l4.293 4.293-1.414 1.414-5-5a1 1 0 010-1.414l5-5 1.414 1.414L11.414 12z"
+                ></path>
+              </g>
+            </svg>
+          </div>
+        </div>
+        <div class="p-4">
+          <div>
+            <p
+              style="
+                font-size: 12px;
+                font-weight: 600;
+                color: var(--color-primary-700);
+              "
+            >
+              تنها <span>۳</span> عدد در انبار دیجی‌کالا باقی مانده
+            </p>
+          </div>
+          <div class="d-flex align-items-center justify-content-between">
+            <button
+              class="w-50 text-white rounded-4 p-2 mt-3"
+              style="background: var(--color-button-primary)"
+            >
+              افزودن به سبد خرید
+            </button>
+            <div class="d-flex align-items-center gap-2">
+              <p class="fs-3 fw-bold">۳۹,۸۹۰,۰۰۰</p>
+              <div>
+                <svg
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="14"
+                  height="14"
+                >
+                  <defs>
+                    <symbol
+                      id="toman"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 14 14"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M3.057 1.742L3.821 1l.78.75-.776.741-.768-.749zm3.23 2.48c0 .622-.16 1.111-.478 1.467-.201.221-.462.39-.783.505a3.251 3.251 0 01-1.083.163h-.555c-.421 0-.801-.074-1.139-.223a2.045 2.045 0 01-.9-.738A2.238 2.238 0 011 4.148c0-.059.001-.117.004-.176.03-.55.204-1.158.525-1.827l1.095.484c-.257.532-.397 1-.419 1.403-.002.04-.004.08-.004.12 0 .252.055.458.166.618a.887.887 0 00.5.354c.085.028.178.048.278.06.079.01.16.014.243.014h.555c.458 0 .769-.081.933-.244.14-.139.21-.383.21-.731V2.02h1.2v2.202zm5.433 3.184l-.72-.7.709-.706.735.707-.724.7zm-2.856.308c.542 0 .973.19 1.293.569.297.346.445.777.445 1.293v.364h.18v-.004h.41c.221 0 .377-.028.467-.084.093-.055.14-.14.14-.258v-.069c.004-.243.017-1.044 0-1.115L13 8.05v1.574a1.4 1.4 0 01-.287.863c-.306.405-.804.607-1.495.607h-.627c-.061.733-.434 1.257-1.117 1.573-.267.122-.58.21-.937.265a5.845 5.845 0 01-.914.067v-1.159c.612 0 1.072-.082 1.38-.247.25-.132.376-.298.376-.499h-.515c-.436 0-.807-.113-1.113-.339-.367-.273-.55-.667-.55-1.18 0-.488.122-.901.367-1.24.296-.415.728-.622 1.296-.622zm.533 2.226v-.364c0-.217-.048-.389-.143-.516a.464.464 0 00-.39-.187.478.478 0 00-.396.187.705.705 0 00-.136.449.65.65 0 00.003.067c.008.125.066.22.177.283.093.054.21.08.352.08h.533zM9.5 6.707l.72.7.724-.7L10.209 6l-.709.707zm-6.694 4.888h.03c.433-.01.745-.106.937-.29.024.012.065.035.12.068l.074.039.081.042c.135.073.261.133.379.18.345.146.67.22.977.22a1.216 1.216 0 00.87-.34c.3-.285.449-.714.449-1.286a2.19 2.19 0 00-.335-1.145c-.299-.457-.732-.685-1.3-.685-.502 0-.916.192-1.242.575-.113.132-.21.284-.294.456-.032.062-.06.125-.084.191a.504.504 0 00-.03.078 1.67 1.67 0 00-.022.06c-.103.309-.171.485-.205.53-.072.09-.214.14-.427.147-.123-.005-.209-.03-.256-.076-.057-.054-.085-.153-.085-.297V7l-1.201-.5v3.562c0 .261.048.496.143.703.071.158.168.296.29.413.123.118.266.211.43.28.198.084.42.13.665.136v.001h.036zm2.752-1.014a.778.778 0 00.044-.353.868.868 0 00-.165-.47c-.1-.134-.217-.201-.35-.201-.18 0-.33.103-.447.31-.042.071-.08.158-.114.262a2.434 2.434 0 00-.04.12l-.015.053-.015.046c.142.118.323.216.544.293.18.062.325.092.433.092.044 0 .086-.05.125-.152z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </symbol>
+                  </defs>
+                  <g fill="#424750">
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.057 1.742L3.821 1l.78.75-.776.741-.768-.749zm3.23 2.48c0 .622-.16 1.111-.478 1.467-.201.221-.462.39-.783.505a3.251 3.251 0 01-1.083.163h-.555c-.421 0-.801-.074-1.139-.223a2.045 2.045 0 01-.9-.738A2.238 2.238 0 011 4.148c0-.059.001-.117.004-.176.03-.55.204-1.158.525-1.827l1.095.484c-.257.532-.397 1-.419 1.403-.002.04-.004.08-.004.12 0 .252.055.458.166.618a.887.887 0 00.5.354c.085.028.178.048.278.06.079.01.16.014.243.014h.555c.458 0 .769-.081.933-.244.14-.139.21-.383.21-.731V2.02h1.2v2.202zm5.433 3.184l-.72-.7.709-.706.735.707-.724.7zm-2.856.308c.542 0 .973.19 1.293.569.297.346.445.777.445 1.293v.364h.18v-.004h.41c.221 0 .377-.028.467-.084.093-.055.14-.14.14-.258v-.069c.004-.243.017-1.044 0-1.115L13 8.05v1.574a1.4 1.4 0 01-.287.863c-.306.405-.804.607-1.495.607h-.627c-.061.733-.434 1.257-1.117 1.573-.267.122-.58.21-.937.265a5.845 5.845 0 01-.914.067v-1.159c.612 0 1.072-.082 1.38-.247.25-.132.376-.298.376-.499h-.515c-.436 0-.807-.113-1.113-.339-.367-.273-.55-.667-.55-1.18 0-.488.122-.901.367-1.24.296-.415.728-.622 1.296-.622zm.533 2.226v-.364c0-.217-.048-.389-.143-.516a.464.464 0 00-.39-.187.478.478 0 00-.396.187.705.705 0 00-.136.449.65.65 0 00.003.067c.008.125.066.22.177.283.093.054.21.08.352.08h.533zM9.5 6.707l.72.7.724-.7L10.209 6l-.709.707zm-6.694 4.888h.03c.433-.01.745-.106.937-.29.024.012.065.035.12.068l.074.039.081.042c.135.073.261.133.379.18.345.146.67.22.977.22a1.216 1.216 0 00.87-.34c.3-.285.449-.714.449-1.286a2.19 2.19 0 00-.335-1.145c-.299-.457-.732-.685-1.3-.685-.502 0-.916.192-1.242.575-.113.132-.21.284-.294.456-.032.062-.06.125-.084.191a.504.504 0 00-.03.078 1.67 1.67 0 00-.022.06c-.103.309-.171.485-.205.53-.072.09-.214.14-.427.147-.123-.005-.209-.03-.256-.076-.057-.054-.085-.153-.085-.297V7l-1.201-.5v3.562c0 .261.048.496.143.703.071.158.168.296.29.413.123.118.266.211.43.28.198.084.42.13.665.136v.001h.036zm2.752-1.014a.778.778 0 00.044-.353.868.868 0 00-.165-.47c-.1-.134-.217-.201-.35-.201-.18 0-.33.103-.447.31-.042.071-.08.158-.114.262a2.434 2.434 0 00-.04.12l-.015.053-.015.046c.142.118.323.216.544.293.18.062.325.092.433.092.044 0 .086-.05.125-.152z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper-bundle.js"></script>
+    <script src="js/hero.js"></script>
+  </body>
+</html>
